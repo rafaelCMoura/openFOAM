@@ -1,0 +1,105 @@
+fileName wellFile(runTime.path()/runTime.constant()/"wellData"/"wellList.dat");
+IFstream dataWell(wellFile);
+
+
+int nWells, nPoints;
+dataWell >> nWells;              // Number of wells described in file
+int wellOpt;                     // Type of flow in well line (1=continuos, 0=discrete)
+int wellType;                    // Type of well (1=injector, 0=productor)
+double Fw;                       // Type of fluid (0=oil, 1=water)
+point wellPoint;                 // Used to store actual point of well line
+label wellCell = mesh.findNearestCell(wellPoint);   // Used to asign source in a cell in well line (any value to intialize)
+label refCell1 = wellCell;  //(any value to initialize)
+//label refCell2 = wellCell;  //(any value to initialize)
+
+//const unallocLabelList& refCellList; // any valu only to initialize
+
+// Spline variables (using boundary spline conditions created in file createTables.H)
+double *d2xz, *d2yz, xz_pval, xz_ppval, yz_pval, yz_ppval, zloc, qWell;
+
+
+for(int i(0);i<nWells;i++)       // Loop in wells
+{
+  dataWell >> Fw;                // water flux
+  dataWell >> wellOpt;           // well option
+  dataWell >> wellType;          // well type
+  dataWell >> qWell;             // Top well value of flow rate
+  dataWell >> nPoints;           // Number of points given in well
+  
+  if(wellOpt==1)                 // Blocks containing given points are perforated
+  {
+    for(int j(0);j<nPoints;j++)  // Loop in well line given points
+    { 
+      dataWell >> wellPoint.x();
+      dataWell >> wellPoint.y();
+      dataWell >> wellPoint.z();
+      //wellPoint.z()  = Zmax.value() - wellPoint.z();// a posiçãp da equaçãp com z para baixo n tem nada a ver com a do openfoam
+      
+      wellCell = mesh.findNearestCell(wellPoint); // Perforated cell in well line:
+      
+      Fw = (wellType==0) ? fw[wellCell] : Fw;
+      
+      qo[wellCell] = (1-Fw)*qWell;
+      qw[wellCell] = Fw*qWell;
+      //Info<<"qwell = "<< qo[wellCell] + qw[wellCell]<<endl; 
+    }
+    // Getting the last point as reference pressure cell
+    if(wellType==0) // troquei para o ultimo do injetor
+    {
+      refCell1 = wellCell;
+    }
+  //  if(wellType==1)
+    //{
+      //refCell2 = wellCell;
+    //}
+  }
+  else if(wellOpt==0)                 // Blocks in given points spline are perforated
+  {
+    double *x = new double [ nPoints ];
+    double *y = new double [ nPoints ];
+    double *z = new double [ nPoints ];
+    
+    for(int k(0);k<nPoints;k++)
+    {
+      dataWell >> x[k];
+      dataWell >> y[k];
+      dataWell >> z[k];
+    }
+    // xz parallel projection of well line: 
+    d2xz = spline_cubic_set ( nPoints, z, x, xbcbeg, fbcbeg, xbcend, fbcend );
+    // yz parallel projection of well line:
+    d2yz = spline_cubic_set ( nPoints, z, y, xbcbeg, fbcbeg, xbcend, fbcend );
+
+    zloc = z[0];              // Well line start from first given point
+    while(zloc<=z[nPoints-1]) // Well line end on the last given point
+    {
+      wellPoint.x() = spline_cubic_val ( nPoints, z, zloc, x, d2xz, &xz_pval, &xz_ppval );
+      wellPoint.y() = spline_cubic_val ( nPoints, z, zloc, y, d2yz, &yz_pval, &yz_ppval );
+      wellPoint.z() = Zmax.value() - zloc;
+      // Perforated cell in well line:
+      wellCell = mesh.findNearestCell(wellPoint);
+      
+      Fw = (wellType==0) ? fw[wellCell] : Fw;
+      
+      qo[wellCell] = (1-Fw)*qWell;
+      qw[wellCell] = Fw*qWell;
+      
+      //Info<<"qwell = "<< qo[wellCell] + qw[wellCell]<<endl;
+      // Descending along the well
+      zloc = zloc + dz.value();
+    }
+    // Getting the last point as reference pressure cell
+    if(wellType==0)
+    {
+      refCell1 = wellCell;
+    }
+    //if(wellType==1)
+    //{
+      //refCell2 = wellCell;
+    //}
+    // Cleaning spline projection data
+    delete[] x;
+    delete[] y;
+    delete[] z;
+  }
+}

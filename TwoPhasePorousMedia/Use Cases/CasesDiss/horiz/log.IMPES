@@ -1,0 +1,6516 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.1.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.1.0-0bc225064152
+Exec   : IMPES
+Date   : May 20 2012
+Time   : 16:51:58
+Host   : "rafael-vb"
+PID    : 9502
+Case   : /home/rafael/OpenFOAM/rafael-2.1.0/SimulatorIMPES/v104/CasesDiss/horiz
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Disallowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Reading fields                     [  OK  ]
+Reading problem parameters         [  OK  ]
+Creating tables                    [  OK  ]
+Initializating problem fields      [  OK  ]
+Setting sources                    [  OK  ]
+Calculationg equation coefficients [  OK  ]
+
+Starting time loop
+
+Time = 11
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 9.31238e-06, No Iterations 81
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_prod = 0
+qw_prod = -0
+qo_prod = -0
+Q_prod = 0
+qw_prod = -0
+qo_prod = -0
+Q_prod = 0
+qw_prod = -0
+qo_prod = -0
+Q_prod = 0
+qw_prod = -0
+qo_prod = -0
+Q_prod = 0
+qw_prod = -0
+qo_prod = -0
+Q_prod = 0
+qw_prod = -0
+qo_prod = -0
+Q_prod = 0
+qw_prod = -0
+qo_prod = -0
+Q_prod = 0
+qw_prod = -0
+qo_prod = -0
+Q_prod = 0
+qw_prod = -0
+qo_prod = -0
+Q_prod = 0
+qw_prod = -0
+qo_prod = -0
+Q_prod = 0
+qw_prod = -0
+qo_prod = -0
+Q_prod = 0
+qw_prod = -0
+qo_prod = -0
+Q_inj = 180000
+
+Imb = 1
+
+
+Cmb = 1
+
+
+NewDeltaT = 11
+
+ExecutionTime = 0.43 s  ClockTime = 1 s
+
+Time = 22
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 0.302975, Final residual = 8.48616e-06, No Iterations 72
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 0.3493
+
+
+Cmb = 0.67465
+
+
+NewDeltaT = 11
+
+ExecutionTime = 0.73 s  ClockTime = 1 s
+
+Time = 33
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.40422e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 5.98889e-10
+
+
+Cmb = 0.449767
+
+
+NewDeltaT = 11
+
+ExecutionTime = 0.91 s  ClockTime = 2 s
+
+Time = 44
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.83022e-06, No Iterations 75
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = -2.43216e-09
+
+
+Cmb = 0.337325
+
+
+NewDeltaT = 11
+
+ExecutionTime = 1.21 s  ClockTime = 2 s
+
+Time = 55
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.08257e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 1.78963e-08
+
+
+Cmb = 0.26986
+
+
+NewDeltaT = 11
+
+ExecutionTime = 1.68 s  ClockTime = 2 s
+
+Time = 66
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 5.83571e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = -4.93619e-10
+
+
+Cmb = 0.224883
+
+
+NewDeltaT = 11
+
+ExecutionTime = 2.28 s  ClockTime = 4 s
+
+Time = 77
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.03651e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.58287e-09
+
+
+Cmb = 0.192757
+
+
+NewDeltaT = 11
+
+ExecutionTime = 2.66 s  ClockTime = 4 s
+
+Time = 88
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 5.51601e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = -2.30727e-10
+
+
+Cmb = 0.168663
+
+
+NewDeltaT = 11
+
+ExecutionTime = 2.9 s  ClockTime = 5 s
+
+Time = 99
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.35411e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.92845e-09
+
+
+Cmb = 0.149922
+
+
+NewDeltaT = 11
+
+ExecutionTime = 3.23 s  ClockTime = 5 s
+
+Time = 110
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.55219e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.26344e-09
+
+
+Cmb = 0.13493
+
+
+NewDeltaT = 11
+
+ExecutionTime = 3.49 s  ClockTime = 5 s
+
+Time = 121
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60231e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.11502e-09
+
+
+Cmb = 0.122664
+
+
+NewDeltaT = 11
+
+ExecutionTime = 3.74 s  ClockTime = 6 s
+
+Time = 132
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.57939e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.27657e-09
+
+
+Cmb = 0.112442
+
+
+NewDeltaT = 11
+
+ExecutionTime = 4.07 s  ClockTime = 6 s
+
+Time = 143
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59093e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.07172e-09
+
+
+Cmb = 0.103792
+
+
+NewDeltaT = 11
+
+ExecutionTime = 4.53 s  ClockTime = 7 s
+
+Time = 154
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.58653e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.32495e-09
+
+
+Cmb = 0.0963786
+
+
+NewDeltaT = 11
+
+ExecutionTime = 5 s  ClockTime = 7 s
+
+Time = 165
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60076e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.13047e-09
+
+
+Cmb = 0.0899534
+
+
+NewDeltaT = 11
+
+ExecutionTime = 5.37 s  ClockTime = 8 s
+
+Time = 176
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.58728e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.30797e-09
+
+
+Cmb = 0.0843313
+
+
+NewDeltaT = 11
+
+ExecutionTime = 5.75 s  ClockTime = 8 s
+
+Time = 187
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.58591e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.07523e-09
+
+
+Cmb = 0.0793706
+
+
+NewDeltaT = 11
+
+ExecutionTime = 6.11 s  ClockTime = 9 s
+
+Time = 198
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.6082e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.34591e-09
+
+
+Cmb = 0.0749611
+
+
+NewDeltaT = 11
+
+ExecutionTime = 6.42 s  ClockTime = 9 s
+
+Time = 209
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60071e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.13441e-09
+
+
+Cmb = 0.0710158
+
+
+NewDeltaT = 11
+
+ExecutionTime = 6.76 s  ClockTime = 10 s
+
+Time = 220
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59111e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.31484e-09
+
+
+Cmb = 0.067465
+
+
+NewDeltaT = 11
+
+ExecutionTime = 6.95 s  ClockTime = 10 s
+
+Time = 231
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.58643e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.07954e-09
+
+
+Cmb = 0.0642524
+
+
+NewDeltaT = 11
+
+ExecutionTime = 7.2 s  ClockTime = 10 s
+
+Time = 242
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.613e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.34901e-09
+
+
+Cmb = 0.0613318
+
+
+NewDeltaT = 11
+
+ExecutionTime = 7.59 s  ClockTime = 11 s
+
+Time = 253
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60097e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.13455e-09
+
+
+Cmb = 0.0586652
+
+
+NewDeltaT = 11
+
+ExecutionTime = 7.92 s  ClockTime = 11 s
+
+Time = 264
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59226e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.31661e-09
+
+
+Cmb = 0.0562208
+
+
+NewDeltaT = 11
+
+ExecutionTime = 8.35 s  ClockTime = 12 s
+
+Time = 275
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.58807e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.08492e-09
+
+
+Cmb = 0.053972
+
+
+NewDeltaT = 11
+
+ExecutionTime = 8.62 s  ClockTime = 12 s
+
+Time = 286
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61374e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.34865e-09
+
+
+Cmb = 0.0518962
+
+
+NewDeltaT = 11
+
+ExecutionTime = 8.89 s  ClockTime = 12 s
+
+Time = 297
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60111e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.13415e-09
+
+
+Cmb = 0.0499741
+
+
+NewDeltaT = 11
+
+ExecutionTime = 9.09 s  ClockTime = 13 s
+
+Time = 308
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59379e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.31823e-09
+
+
+Cmb = 0.0481893
+
+
+NewDeltaT = 11
+
+ExecutionTime = 9.33 s  ClockTime = 13 s
+
+Time = 319
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.58961e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.08995e-09
+
+
+Cmb = 0.0465276
+
+
+NewDeltaT = 11
+
+ExecutionTime = 9.64 s  ClockTime = 13 s
+
+Time = 330
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61367e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.34784e-09
+
+
+Cmb = 0.0449767
+
+
+NewDeltaT = 11
+
+ExecutionTime = 9.82 s  ClockTime = 14 s
+
+Time = 341
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60114e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.13371e-09
+
+
+Cmb = 0.0435258
+
+
+NewDeltaT = 11
+
+ExecutionTime = 10.01 s  ClockTime = 14 s
+
+Time = 352
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59533e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.31991e-09
+
+
+Cmb = 0.0421656
+
+
+NewDeltaT = 11
+
+ExecutionTime = 10.21 s  ClockTime = 14 s
+
+Time = 363
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.5909e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.09419e-09
+
+
+Cmb = 0.0408879
+
+
+NewDeltaT = 11
+
+ExecutionTime = 10.41 s  ClockTime = 14 s
+
+Time = 374
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.6134e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.34702e-09
+
+
+Cmb = 0.0396853
+
+
+NewDeltaT = 11
+
+ExecutionTime = 10.63 s  ClockTime = 15 s
+
+Time = 385
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60113e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.13319e-09
+
+
+Cmb = 0.0385514
+
+
+NewDeltaT = 11
+
+ExecutionTime = 11.18 s  ClockTime = 15 s
+
+Time = 396
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59664e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.32138e-09
+
+
+Cmb = 0.0374806
+
+
+NewDeltaT = 11
+
+ExecutionTime = 11.74 s  ClockTime = 16 s
+
+Time = 407
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59195e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.09772e-09
+
+
+Cmb = 0.0364676
+
+
+NewDeltaT = 11
+
+ExecutionTime = 12.12 s  ClockTime = 17 s
+
+Time = 418
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61329e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.34627e-09
+
+
+Cmb = 0.0355079
+
+
+NewDeltaT = 11
+
+ExecutionTime = 12.43 s  ClockTime = 17 s
+
+Time = 429
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60111e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.13265e-09
+
+
+Cmb = 0.0345974
+
+
+NewDeltaT = 11
+
+ExecutionTime = 12.71 s  ClockTime = 17 s
+
+Time = 440
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59779e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.32283e-09
+
+
+Cmb = 0.0337325
+
+
+NewDeltaT = 11
+
+ExecutionTime = 12.95 s  ClockTime = 18 s
+
+Time = 451
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59282e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.10058e-09
+
+
+Cmb = 0.0329098
+
+
+NewDeltaT = 11
+
+ExecutionTime = 13.15 s  ClockTime = 18 s
+
+Time = 462
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61322e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.34555e-09
+
+
+Cmb = 0.0321262
+
+
+NewDeltaT = 11
+
+ExecutionTime = 13.4 s  ClockTime = 18 s
+
+Time = 473
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60108e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.13217e-09
+
+
+Cmb = 0.0313791
+
+
+NewDeltaT = 11
+
+ExecutionTime = 13.66 s  ClockTime = 19 s
+
+Time = 484
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59884e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.32388e-09
+
+
+Cmb = 0.0306659
+
+
+NewDeltaT = 11
+
+ExecutionTime = 14.21 s  ClockTime = 19 s
+
+Time = 495
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59352e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.10289e-09
+
+
+Cmb = 0.0299845
+
+
+NewDeltaT = 11
+
+ExecutionTime = 14.62 s  ClockTime = 20 s
+
+Time = 506
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61316e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.34501e-09
+
+
+Cmb = 0.0293326
+
+
+NewDeltaT = 11
+
+ExecutionTime = 15.08 s  ClockTime = 20 s
+
+Time = 517
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60105e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.13169e-09
+
+
+Cmb = 0.0287085
+
+
+NewDeltaT = 11
+
+ExecutionTime = 15.51 s  ClockTime = 21 s
+
+Time = 528
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59977e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.32486e-09
+
+
+Cmb = 0.0281104
+
+
+NewDeltaT = 11
+
+ExecutionTime = 15.89 s  ClockTime = 22 s
+
+Time = 539
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59409e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.10489e-09
+
+
+Cmb = 0.0275367
+
+
+NewDeltaT = 11
+
+ExecutionTime = 16.17 s  ClockTime = 22 s
+
+Time = 550
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61307e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.34436e-09
+
+
+Cmb = 0.026986
+
+
+NewDeltaT = 11
+
+ExecutionTime = 16.36 s  ClockTime = 22 s
+
+Time = 561
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60102e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.13129e-09
+
+
+Cmb = 0.0264569
+
+
+NewDeltaT = 11
+
+ExecutionTime = 16.63 s  ClockTime = 22 s
+
+Time = 572
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60055e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.32568e-09
+
+
+Cmb = 0.0259481
+
+
+NewDeltaT = 11
+
+ExecutionTime = 16.9 s  ClockTime = 23 s
+
+Time = 583
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59457e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.10654e-09
+
+
+Cmb = 0.0254585
+
+
+NewDeltaT = 11
+
+ExecutionTime = 17.24 s  ClockTime = 23 s
+
+Time = 594
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61297e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.34386e-09
+
+
+Cmb = 0.024987
+
+
+NewDeltaT = 11
+
+ExecutionTime = 17.84 s  ClockTime = 24 s
+
+Time = 605
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60099e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.1309e-09
+
+
+Cmb = 0.0245327
+
+
+NewDeltaT = 11
+
+ExecutionTime = 18.39 s  ClockTime = 25 s
+
+Time = 616
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60122e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.32649e-09
+
+
+Cmb = 0.0240947
+
+
+NewDeltaT = 11
+
+ExecutionTime = 18.7 s  ClockTime = 25 s
+
+Time = 627
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59497e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.10789e-09
+
+
+Cmb = 0.0236719
+
+
+NewDeltaT = 11
+
+ExecutionTime = 18.95 s  ClockTime = 26 s
+
+Time = 638
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61285e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.34348e-09
+
+
+Cmb = 0.0232638
+
+
+NewDeltaT = 11
+
+ExecutionTime = 19.23 s  ClockTime = 26 s
+
+Time = 649
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60097e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.13051e-09
+
+
+Cmb = 0.0228695
+
+
+NewDeltaT = 11
+
+ExecutionTime = 19.53 s  ClockTime = 26 s
+
+Time = 660
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60179e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.32709e-09
+
+
+Cmb = 0.0224883
+
+
+NewDeltaT = 11
+
+ExecutionTime = 19.83 s  ClockTime = 27 s
+
+Time = 671
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.5953e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.10911e-09
+
+
+Cmb = 0.0221197
+
+
+NewDeltaT = 11
+
+ExecutionTime = 20.13 s  ClockTime = 27 s
+
+Time = 682
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61274e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.34311e-09
+
+
+Cmb = 0.0217629
+
+
+NewDeltaT = 11
+
+ExecutionTime = 20.51 s  ClockTime = 27 s
+
+Time = 693
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60095e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.13024e-09
+
+
+Cmb = 0.0214175
+
+
+NewDeltaT = 11
+
+ExecutionTime = 20.99 s  ClockTime = 28 s
+
+Time = 704
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.6023e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.32761e-09
+
+
+Cmb = 0.0210828
+
+
+NewDeltaT = 11
+
+ExecutionTime = 21.57 s  ClockTime = 29 s
+
+Time = 715
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59559e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.11012e-09
+
+
+Cmb = 0.0207585
+
+
+NewDeltaT = 11
+
+ExecutionTime = 22.1 s  ClockTime = 30 s
+
+Time = 726
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61263e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.34275e-09
+
+
+Cmb = 0.0204439
+
+
+NewDeltaT = 11
+
+ExecutionTime = 22.47 s  ClockTime = 30 s
+
+Time = 737
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60093e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12989e-09
+
+
+Cmb = 0.0201388
+
+
+NewDeltaT = 11
+
+ExecutionTime = 22.83 s  ClockTime = 31 s
+
+Time = 748
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60274e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.32814e-09
+
+
+Cmb = 0.0198427
+
+
+NewDeltaT = 11
+
+ExecutionTime = 23.11 s  ClockTime = 31 s
+
+Time = 759
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59584e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.11106e-09
+
+
+Cmb = 0.0195551
+
+
+NewDeltaT = 11
+
+ExecutionTime = 23.42 s  ClockTime = 31 s
+
+Time = 770
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61252e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.34238e-09
+
+
+Cmb = 0.0192757
+
+
+NewDeltaT = 11
+
+ExecutionTime = 23.82 s  ClockTime = 32 s
+
+Time = 781
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60091e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12961e-09
+
+
+Cmb = 0.0190042
+
+
+NewDeltaT = 11
+
+ExecutionTime = 24.42 s  ClockTime = 33 s
+
+Time = 792
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60314e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.3287e-09
+
+
+Cmb = 0.0187403
+
+
+NewDeltaT = 11
+
+ExecutionTime = 24.73 s  ClockTime = 33 s
+
+Time = 803
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59606e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.11186e-09
+
+
+Cmb = 0.0184836
+
+
+NewDeltaT = 11
+
+ExecutionTime = 24.93 s  ClockTime = 33 s
+
+Time = 814
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61242e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.34213e-09
+
+
+Cmb = 0.0182338
+
+
+NewDeltaT = 11
+
+ExecutionTime = 25.4 s  ClockTime = 34 s
+
+Time = 825
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60089e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12929e-09
+
+
+Cmb = 0.0179907
+
+
+NewDeltaT = 11
+
+ExecutionTime = 25.81 s  ClockTime = 34 s
+
+Time = 836
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60349e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.32907e-09
+
+
+Cmb = 0.017754
+
+
+NewDeltaT = 11
+
+ExecutionTime = 26.01 s  ClockTime = 35 s
+
+Time = 847
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59625e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.11256e-09
+
+
+Cmb = 0.0175234
+
+
+NewDeltaT = 11
+
+ExecutionTime = 26.18 s  ClockTime = 35 s
+
+Time = 858
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61233e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.34174e-09
+
+
+Cmb = 0.0172987
+
+
+NewDeltaT = 11
+
+ExecutionTime = 26.37 s  ClockTime = 35 s
+
+Time = 869
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60088e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12903e-09
+
+
+Cmb = 0.0170798
+
+
+NewDeltaT = 11
+
+ExecutionTime = 26.64 s  ClockTime = 35 s
+
+Time = 880
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.6038e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.32947e-09
+
+
+Cmb = 0.0168663
+
+
+NewDeltaT = 11
+
+ExecutionTime = 27.08 s  ClockTime = 36 s
+
+Time = 891
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59642e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.11322e-09
+
+
+Cmb = 0.016658
+
+
+NewDeltaT = 11
+
+ExecutionTime = 27.72 s  ClockTime = 37 s
+
+Time = 902
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61225e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.34155e-09
+
+
+Cmb = 0.0164549
+
+
+NewDeltaT = 11
+
+ExecutionTime = 28.13 s  ClockTime = 38 s
+
+Time = 913
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60086e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12878e-09
+
+
+Cmb = 0.0162566
+
+
+NewDeltaT = 11
+
+ExecutionTime = 28.57 s  ClockTime = 38 s
+
+Time = 924
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60407e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.32976e-09
+
+
+Cmb = 0.0160631
+
+
+NewDeltaT = 11
+
+ExecutionTime = 28.77 s  ClockTime = 38 s
+
+Time = 935
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59657e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.11385e-09
+
+
+Cmb = 0.0158741
+
+
+NewDeltaT = 11
+
+ExecutionTime = 28.94 s  ClockTime = 39 s
+
+Time = 946
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61216e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.34125e-09
+
+
+Cmb = 0.0156895
+
+
+NewDeltaT = 11
+
+ExecutionTime = 29.11 s  ClockTime = 39 s
+
+Time = 957
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60085e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12855e-09
+
+
+Cmb = 0.0155092
+
+
+NewDeltaT = 11
+
+ExecutionTime = 29.26 s  ClockTime = 39 s
+
+Time = 968
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60433e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33012e-09
+
+
+Cmb = 0.015333
+
+
+NewDeltaT = 11
+
+ExecutionTime = 29.56 s  ClockTime = 39 s
+
+Time = 979
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59671e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.11436e-09
+
+
+Cmb = 0.0151607
+
+
+NewDeltaT = 11
+
+ExecutionTime = 30.02 s  ClockTime = 40 s
+
+Time = 990
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61207e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.34104e-09
+
+
+Cmb = 0.0149922
+
+
+NewDeltaT = 11
+
+ExecutionTime = 30.53 s  ClockTime = 41 s
+
+Time = 1001
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60084e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12831e-09
+
+
+Cmb = 0.0148275
+
+
+NewDeltaT = 11
+
+ExecutionTime = 31.06 s  ClockTime = 42 s
+
+Time = 1012
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60459e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33045e-09
+
+
+Cmb = 0.0146663
+
+
+NewDeltaT = 11
+
+ExecutionTime = 31.45 s  ClockTime = 42 s
+
+Time = 1023
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59684e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.11486e-09
+
+
+Cmb = 0.0145086
+
+
+NewDeltaT = 11
+
+ExecutionTime = 31.8 s  ClockTime = 42 s
+
+Time = 1034
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61199e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.3408e-09
+
+
+Cmb = 0.0143543
+
+
+NewDeltaT = 11
+
+ExecutionTime = 32 s  ClockTime = 43 s
+
+Time = 1045
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60082e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12815e-09
+
+
+Cmb = 0.0142032
+
+
+NewDeltaT = 11
+
+ExecutionTime = 32.27 s  ClockTime = 43 s
+
+Time = 1056
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60484e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33077e-09
+
+
+Cmb = 0.0140552
+
+
+NewDeltaT = 11
+
+ExecutionTime = 32.49 s  ClockTime = 43 s
+
+Time = 1067
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59696e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.11528e-09
+
+
+Cmb = 0.0139103
+
+
+NewDeltaT = 11
+
+ExecutionTime = 32.69 s  ClockTime = 44 s
+
+Time = 1078
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.6119e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.34067e-09
+
+
+Cmb = 0.0137684
+
+
+NewDeltaT = 11
+
+ExecutionTime = 32.97 s  ClockTime = 44 s
+
+Time = 1089
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60081e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12792e-09
+
+
+Cmb = 0.0136293
+
+
+NewDeltaT = 11
+
+ExecutionTime = 33.38 s  ClockTime = 44 s
+
+Time = 1100
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60508e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33101e-09
+
+
+Cmb = 0.013493
+
+
+NewDeltaT = 11
+
+ExecutionTime = 34.08 s  ClockTime = 45 s
+
+Time = 1111
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59707e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.11576e-09
+
+
+Cmb = 0.0133594
+
+
+NewDeltaT = 11
+
+ExecutionTime = 34.53 s  ClockTime = 46 s
+
+Time = 1122
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61181e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.34047e-09
+
+
+Cmb = 0.0132284
+
+
+NewDeltaT = 11
+
+ExecutionTime = 34.9 s  ClockTime = 47 s
+
+Time = 1133
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60079e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12775e-09
+
+
+Cmb = 0.0131
+
+
+NewDeltaT = 11
+
+ExecutionTime = 35.25 s  ClockTime = 47 s
+
+Time = 1144
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60531e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33118e-09
+
+
+Cmb = 0.012974
+
+
+NewDeltaT = 11
+
+ExecutionTime = 35.49 s  ClockTime = 47 s
+
+Time = 1155
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59717e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.11613e-09
+
+
+Cmb = 0.0128505
+
+
+NewDeltaT = 11
+
+ExecutionTime = 35.79 s  ClockTime = 48 s
+
+Time = 1166
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61172e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.3403e-09
+
+
+Cmb = 0.0127293
+
+
+NewDeltaT = 11
+
+ExecutionTime = 36.06 s  ClockTime = 48 s
+
+Time = 1177
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60078e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12746e-09
+
+
+Cmb = 0.0126103
+
+
+NewDeltaT = 11
+
+ExecutionTime = 36.51 s  ClockTime = 49 s
+
+Time = 1188
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60552e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33141e-09
+
+
+Cmb = 0.0124935
+
+
+NewDeltaT = 11
+
+ExecutionTime = 37.11 s  ClockTime = 49 s
+
+Time = 1199
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59726e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.11649e-09
+
+
+Cmb = 0.0123789
+
+
+NewDeltaT = 11
+
+ExecutionTime = 37.59 s  ClockTime = 50 s
+
+Time = 1210
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61164e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.34012e-09
+
+
+Cmb = 0.0122664
+
+
+NewDeltaT = 11
+
+ExecutionTime = 38.01 s  ClockTime = 51 s
+
+Time = 1221
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60077e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12726e-09
+
+
+Cmb = 0.0121559
+
+
+NewDeltaT = 11
+
+ExecutionTime = 38.38 s  ClockTime = 51 s
+
+Time = 1232
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60572e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33174e-09
+
+
+Cmb = 0.0120473
+
+
+NewDeltaT = 11
+
+ExecutionTime = 38.69 s  ClockTime = 51 s
+
+Time = 1243
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59734e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.11683e-09
+
+
+Cmb = 0.0119407
+
+
+NewDeltaT = 11
+
+ExecutionTime = 38.93 s  ClockTime = 52 s
+
+Time = 1254
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61156e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.3399e-09
+
+
+Cmb = 0.011836
+
+
+NewDeltaT = 11
+
+ExecutionTime = 39.11 s  ClockTime = 52 s
+
+Time = 1265
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60075e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12715e-09
+
+
+Cmb = 0.0117331
+
+
+NewDeltaT = 11
+
+ExecutionTime = 39.51 s  ClockTime = 53 s
+
+Time = 1276
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.6059e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33196e-09
+
+
+Cmb = 0.0116319
+
+
+NewDeltaT = 11
+
+ExecutionTime = 39.95 s  ClockTime = 53 s
+
+Time = 1287
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59742e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.11705e-09
+
+
+Cmb = 0.0115325
+
+
+NewDeltaT = 11
+
+ExecutionTime = 40.31 s  ClockTime = 54 s
+
+Time = 1298
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61147e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.3397e-09
+
+
+Cmb = 0.0114348
+
+
+NewDeltaT = 11
+
+ExecutionTime = 40.67 s  ClockTime = 54 s
+
+Time = 1309
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60074e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12701e-09
+
+
+Cmb = 0.0113387
+
+
+NewDeltaT = 11
+
+ExecutionTime = 41 s  ClockTime = 54 s
+
+Time = 1320
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60608e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33211e-09
+
+
+Cmb = 0.0112442
+
+
+NewDeltaT = 11
+
+ExecutionTime = 41.4 s  ClockTime = 55 s
+
+Time = 1331
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59749e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.11743e-09
+
+
+Cmb = 0.0111512
+
+
+NewDeltaT = 11
+
+ExecutionTime = 41.78 s  ClockTime = 55 s
+
+Time = 1342
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.6114e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33945e-09
+
+
+Cmb = 0.0110598
+
+
+NewDeltaT = 11
+
+ExecutionTime = 42.09 s  ClockTime = 56 s
+
+Time = 1353
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60072e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12683e-09
+
+
+Cmb = 0.0109699
+
+
+NewDeltaT = 11
+
+ExecutionTime = 42.38 s  ClockTime = 56 s
+
+Time = 1364
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60625e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33221e-09
+
+
+Cmb = 0.0108815
+
+
+NewDeltaT = 11
+
+ExecutionTime = 42.71 s  ClockTime = 56 s
+
+Time = 1375
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59756e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.11768e-09
+
+
+Cmb = 0.0107944
+
+
+NewDeltaT = 11
+
+ExecutionTime = 43.01 s  ClockTime = 57 s
+
+Time = 1386
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61132e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33945e-09
+
+
+Cmb = 0.0107087
+
+
+NewDeltaT = 11
+
+ExecutionTime = 43.4 s  ClockTime = 57 s
+
+Time = 1397
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60071e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12669e-09
+
+
+Cmb = 0.0106244
+
+
+NewDeltaT = 11
+
+ExecutionTime = 43.76 s  ClockTime = 58 s
+
+Time = 1408
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.6064e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33238e-09
+
+
+Cmb = 0.0105414
+
+
+NewDeltaT = 11
+
+ExecutionTime = 44.16 s  ClockTime = 58 s
+
+Time = 1419
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59762e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.11794e-09
+
+
+Cmb = 0.0104597
+
+
+NewDeltaT = 11
+
+ExecutionTime = 44.51 s  ClockTime = 59 s
+
+Time = 1430
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61124e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33934e-09
+
+
+Cmb = 0.0103792
+
+
+NewDeltaT = 11
+
+ExecutionTime = 44.84 s  ClockTime = 59 s
+
+Time = 1441
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.6007e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12649e-09
+
+
+Cmb = 0.0103
+
+
+NewDeltaT = 11
+
+ExecutionTime = 45.11 s  ClockTime = 60 s
+
+Time = 1452
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60655e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33254e-09
+
+
+Cmb = 0.010222
+
+
+NewDeltaT = 11
+
+ExecutionTime = 45.38 s  ClockTime = 60 s
+
+Time = 1463
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59768e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.11822e-09
+
+
+Cmb = 0.0101451
+
+
+NewDeltaT = 11
+
+ExecutionTime = 45.57 s  ClockTime = 60 s
+
+Time = 1474
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61117e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33919e-09
+
+
+Cmb = 0.0100694
+
+
+NewDeltaT = 11
+
+ExecutionTime = 45.82 s  ClockTime = 60 s
+
+Time = 1485
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60068e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12634e-09
+
+
+Cmb = 0.00999482
+
+
+NewDeltaT = 11
+
+ExecutionTime = 46.13 s  ClockTime = 61 s
+
+Time = 1496
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.6067e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33276e-09
+
+
+Cmb = 0.00992133
+
+
+NewDeltaT = 11
+
+ExecutionTime = 46.57 s  ClockTime = 61 s
+
+Time = 1507
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59774e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.11845e-09
+
+
+Cmb = 0.00984891
+
+
+NewDeltaT = 11
+
+ExecutionTime = 47.21 s  ClockTime = 62 s
+
+Time = 1518
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61109e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33901e-09
+
+
+Cmb = 0.00977754
+
+
+NewDeltaT = 11
+
+ExecutionTime = 47.56 s  ClockTime = 63 s
+
+Time = 1529
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60067e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12623e-09
+
+
+Cmb = 0.0097072
+
+
+NewDeltaT = 11
+
+ExecutionTime = 47.88 s  ClockTime = 63 s
+
+Time = 1540
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60684e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33294e-09
+
+
+Cmb = 0.00963786
+
+
+NewDeltaT = 11
+
+ExecutionTime = 48.14 s  ClockTime = 63 s
+
+Time = 1551
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59779e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.11858e-09
+
+
+Cmb = 0.00956951
+
+
+NewDeltaT = 11
+
+ExecutionTime = 48.42 s  ClockTime = 64 s
+
+Time = 1562
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61102e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33888e-09
+
+
+Cmb = 0.00950212
+
+
+NewDeltaT = 11
+
+ExecutionTime = 48.78 s  ClockTime = 64 s
+
+Time = 1573
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60066e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.1261e-09
+
+
+Cmb = 0.00943567
+
+
+NewDeltaT = 11
+
+ExecutionTime = 49.03 s  ClockTime = 65 s
+
+Time = 1584
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60698e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33302e-09
+
+
+Cmb = 0.00937015
+
+
+NewDeltaT = 11
+
+ExecutionTime = 49.37 s  ClockTime = 65 s
+
+Time = 1595
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59785e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.11883e-09
+
+
+Cmb = 0.00930552
+
+
+NewDeltaT = 11
+
+ExecutionTime = 49.91 s  ClockTime = 66 s
+
+Time = 1606
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61096e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33881e-09
+
+
+Cmb = 0.00924179
+
+
+NewDeltaT = 11
+
+ExecutionTime = 50.54 s  ClockTime = 67 s
+
+Time = 1617
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60064e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12604e-09
+
+
+Cmb = 0.00917892
+
+
+NewDeltaT = 11
+
+ExecutionTime = 51.03 s  ClockTime = 67 s
+
+Time = 1628
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60711e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33317e-09
+
+
+Cmb = 0.0091169
+
+
+NewDeltaT = 11
+
+ExecutionTime = 51.46 s  ClockTime = 68 s
+
+Time = 1639
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.5979e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.119e-09
+
+
+Cmb = 0.00905571
+
+
+NewDeltaT = 11
+
+ExecutionTime = 51.91 s  ClockTime = 68 s
+
+Time = 1650
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61089e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33864e-09
+
+
+Cmb = 0.00899534
+
+
+NewDeltaT = 11
+
+ExecutionTime = 52.19 s  ClockTime = 69 s
+
+Time = 1661
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60063e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12591e-09
+
+
+Cmb = 0.00893577
+
+
+NewDeltaT = 11
+
+ExecutionTime = 52.47 s  ClockTime = 69 s
+
+Time = 1672
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60723e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33323e-09
+
+
+Cmb = 0.00887698
+
+
+NewDeltaT = 11
+
+ExecutionTime = 52.84 s  ClockTime = 69 s
+
+Time = 1683
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59794e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.11917e-09
+
+
+Cmb = 0.00881896
+
+
+NewDeltaT = 11
+
+ExecutionTime = 53.48 s  ClockTime = 70 s
+
+Time = 1694
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61083e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33852e-09
+
+
+Cmb = 0.0087617
+
+
+NewDeltaT = 11
+
+ExecutionTime = 54.07 s  ClockTime = 71 s
+
+Time = 1705
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60062e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12572e-09
+
+
+Cmb = 0.00870517
+
+
+NewDeltaT = 11
+
+ExecutionTime = 54.39 s  ClockTime = 72 s
+
+Time = 1716
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60734e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.3334e-09
+
+
+Cmb = 0.00864937
+
+
+NewDeltaT = 11
+
+ExecutionTime = 54.9 s  ClockTime = 72 s
+
+Time = 1727
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59799e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.11934e-09
+
+
+Cmb = 0.00859427
+
+
+NewDeltaT = 11
+
+ExecutionTime = 55.23 s  ClockTime = 73 s
+
+Time = 1738
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61077e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33854e-09
+
+
+Cmb = 0.00853988
+
+
+NewDeltaT = 11
+
+ExecutionTime = 55.55 s  ClockTime = 73 s
+
+Time = 1749
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60061e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.1256e-09
+
+
+Cmb = 0.00848617
+
+
+NewDeltaT = 11
+
+ExecutionTime = 55.92 s  ClockTime = 74 s
+
+Time = 1760
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60745e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33347e-09
+
+
+Cmb = 0.00843313
+
+
+NewDeltaT = 11
+
+ExecutionTime = 56.49 s  ClockTime = 74 s
+
+Time = 1771
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59803e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.11951e-09
+
+
+Cmb = 0.00838075
+
+
+NewDeltaT = 11
+
+ExecutionTime = 57.1 s  ClockTime = 75 s
+
+Time = 1782
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61071e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33836e-09
+
+
+Cmb = 0.00832902
+
+
+NewDeltaT = 11
+
+ExecutionTime = 57.52 s  ClockTime = 76 s
+
+Time = 1793
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.6006e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12556e-09
+
+
+Cmb = 0.00827792
+
+
+NewDeltaT = 11
+
+ExecutionTime = 57.87 s  ClockTime = 76 s
+
+Time = 1804
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60755e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33369e-09
+
+
+Cmb = 0.00822745
+
+
+NewDeltaT = 11
+
+ExecutionTime = 58.18 s  ClockTime = 77 s
+
+Time = 1815
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59807e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.11969e-09
+
+
+Cmb = 0.00817758
+
+
+NewDeltaT = 11
+
+ExecutionTime = 58.41 s  ClockTime = 77 s
+
+Time = 1826
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61065e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33834e-09
+
+
+Cmb = 0.00812832
+
+
+NewDeltaT = 11
+
+ExecutionTime = 58.65 s  ClockTime = 77 s
+
+Time = 1837
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60059e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12543e-09
+
+
+Cmb = 0.00807965
+
+
+NewDeltaT = 11
+
+ExecutionTime = 59.04 s  ClockTime = 78 s
+
+Time = 1848
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60764e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33371e-09
+
+
+Cmb = 0.00803155
+
+
+NewDeltaT = 11
+
+ExecutionTime = 59.64 s  ClockTime = 79 s
+
+Time = 1859
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.5981e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.11977e-09
+
+
+Cmb = 0.00798403
+
+
+NewDeltaT = 11
+
+ExecutionTime = 60.07 s  ClockTime = 79 s
+
+Time = 1870
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.6106e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33827e-09
+
+
+Cmb = 0.00793707
+
+
+NewDeltaT = 11
+
+ExecutionTime = 60.55 s  ClockTime = 80 s
+
+Time = 1881
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60058e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12535e-09
+
+
+Cmb = 0.00789065
+
+
+NewDeltaT = 11
+
+ExecutionTime = 60.92 s  ClockTime = 80 s
+
+Time = 1892
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60773e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.3338e-09
+
+
+Cmb = 0.00784477
+
+
+NewDeltaT = 11
+
+ExecutionTime = 61.21 s  ClockTime = 81 s
+
+Time = 1903
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59814e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.11992e-09
+
+
+Cmb = 0.00779943
+
+
+NewDeltaT = 11
+
+ExecutionTime = 61.4 s  ClockTime = 81 s
+
+Time = 1914
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61054e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.3381e-09
+
+
+Cmb = 0.0077546
+
+
+NewDeltaT = 11
+
+ExecutionTime = 61.57 s  ClockTime = 81 s
+
+Time = 1925
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60058e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12525e-09
+
+
+Cmb = 0.00771029
+
+
+NewDeltaT = 11
+
+ExecutionTime = 61.9 s  ClockTime = 82 s
+
+Time = 1936
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60782e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33392e-09
+
+
+Cmb = 0.00766648
+
+
+NewDeltaT = 11
+
+ExecutionTime = 62.29 s  ClockTime = 82 s
+
+Time = 1947
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59817e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.1201e-09
+
+
+Cmb = 0.00762317
+
+
+NewDeltaT = 11
+
+ExecutionTime = 62.8 s  ClockTime = 83 s
+
+Time = 1958
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61049e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33809e-09
+
+
+Cmb = 0.00758034
+
+
+NewDeltaT = 11
+
+ExecutionTime = 63.36 s  ClockTime = 83 s
+
+Time = 1969
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60057e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.1252e-09
+
+
+Cmb = 0.007538
+
+
+NewDeltaT = 11
+
+ExecutionTime = 63.59 s  ClockTime = 84 s
+
+Time = 1980
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.6079e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33392e-09
+
+
+Cmb = 0.00749612
+
+
+NewDeltaT = 11
+
+ExecutionTime = 64.13 s  ClockTime = 84 s
+
+Time = 1991
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.5982e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12018e-09
+
+
+Cmb = 0.0074547
+
+
+NewDeltaT = 11
+
+ExecutionTime = 64.5 s  ClockTime = 85 s
+
+Time = 2002
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61044e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33795e-09
+
+
+Cmb = 0.00741374
+
+
+NewDeltaT = 11
+
+ExecutionTime = 64.82 s  ClockTime = 85 s
+
+Time = 2013
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60056e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12507e-09
+
+
+Cmb = 0.00737323
+
+
+NewDeltaT = 11
+
+ExecutionTime = 65.13 s  ClockTime = 86 s
+
+Time = 2024
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60798e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33403e-09
+
+
+Cmb = 0.00733316
+
+
+NewDeltaT = 11
+
+ExecutionTime = 65.51 s  ClockTime = 86 s
+
+Time = 2035
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59823e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12035e-09
+
+
+Cmb = 0.00729352
+
+
+NewDeltaT = 11
+
+ExecutionTime = 66.06 s  ClockTime = 87 s
+
+Time = 2046
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61039e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.3379e-09
+
+
+Cmb = 0.00725431
+
+
+NewDeltaT = 11
+
+ExecutionTime = 66.57 s  ClockTime = 88 s
+
+Time = 2057
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60055e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12503e-09
+
+
+Cmb = 0.00721552
+
+
+NewDeltaT = 11
+
+ExecutionTime = 67 s  ClockTime = 88 s
+
+Time = 2068
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60806e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33424e-09
+
+
+Cmb = 0.00717713
+
+
+NewDeltaT = 11
+
+ExecutionTime = 67.34 s  ClockTime = 89 s
+
+Time = 2079
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59826e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12044e-09
+
+
+Cmb = 0.00713916
+
+
+NewDeltaT = 11
+
+ExecutionTime = 67.7 s  ClockTime = 89 s
+
+Time = 2090
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61035e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33786e-09
+
+
+Cmb = 0.00710159
+
+
+NewDeltaT = 11
+
+ExecutionTime = 67.93 s  ClockTime = 89 s
+
+Time = 2101
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60054e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12488e-09
+
+
+Cmb = 0.0070644
+
+
+NewDeltaT = 11
+
+ExecutionTime = 68.15 s  ClockTime = 90 s
+
+Time = 2112
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60813e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33429e-09
+
+
+Cmb = 0.00702761
+
+
+NewDeltaT = 11
+
+ExecutionTime = 68.45 s  ClockTime = 90 s
+
+Time = 2123
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59828e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12053e-09
+
+
+Cmb = 0.0069912
+
+
+NewDeltaT = 11
+
+ExecutionTime = 68.91 s  ClockTime = 91 s
+
+Time = 2134
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.6103e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33771e-09
+
+
+Cmb = 0.00695516
+
+
+NewDeltaT = 11
+
+ExecutionTime = 69.4 s  ClockTime = 92 s
+
+Time = 2145
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60053e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12481e-09
+
+
+Cmb = 0.00691949
+
+
+NewDeltaT = 11
+
+ExecutionTime = 69.88 s  ClockTime = 92 s
+
+Time = 2156
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60819e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33437e-09
+
+
+Cmb = 0.00688419
+
+
+NewDeltaT = 11
+
+ExecutionTime = 70.27 s  ClockTime = 93 s
+
+Time = 2167
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59831e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.1206e-09
+
+
+Cmb = 0.00684925
+
+
+NewDeltaT = 11
+
+ExecutionTime = 70.55 s  ClockTime = 93 s
+
+Time = 2178
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61025e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33772e-09
+
+
+Cmb = 0.00681465
+
+
+NewDeltaT = 11
+
+ExecutionTime = 70.8 s  ClockTime = 93 s
+
+Time = 2189
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60052e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12475e-09
+
+
+Cmb = 0.00678041
+
+
+NewDeltaT = 11
+
+ExecutionTime = 71.1 s  ClockTime = 94 s
+
+Time = 2200
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60826e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33446e-09
+
+
+Cmb = 0.00674651
+
+
+NewDeltaT = 11
+
+ExecutionTime = 71.34 s  ClockTime = 94 s
+
+Time = 2211
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59833e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12068e-09
+
+
+Cmb = 0.00671294
+
+
+NewDeltaT = 11
+
+ExecutionTime = 71.65 s  ClockTime = 94 s
+
+Time = 2222
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61021e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33755e-09
+
+
+Cmb = 0.00667971
+
+
+NewDeltaT = 11
+
+ExecutionTime = 72.09 s  ClockTime = 95 s
+
+Time = 2233
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60052e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12466e-09
+
+
+Cmb = 0.0066468
+
+
+NewDeltaT = 11
+
+ExecutionTime = 72.47 s  ClockTime = 96 s
+
+Time = 2244
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60832e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.3345e-09
+
+
+Cmb = 0.00661422
+
+
+NewDeltaT = 11
+
+ExecutionTime = 72.86 s  ClockTime = 96 s
+
+Time = 2255
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59835e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12074e-09
+
+
+Cmb = 0.00658196
+
+
+NewDeltaT = 11
+
+ExecutionTime = 73.14 s  ClockTime = 96 s
+
+Time = 2266
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61017e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33757e-09
+
+
+Cmb = 0.00655001
+
+
+NewDeltaT = 11
+
+ExecutionTime = 73.72 s  ClockTime = 97 s
+
+Time = 2277
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60051e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.1246e-09
+
+
+Cmb = 0.00651836
+
+
+NewDeltaT = 11
+
+ExecutionTime = 74.1 s  ClockTime = 98 s
+
+Time = 2288
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60837e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33465e-09
+
+
+Cmb = 0.00648703
+
+
+NewDeltaT = 11
+
+ExecutionTime = 74.4 s  ClockTime = 98 s
+
+Time = 2299
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59838e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12091e-09
+
+
+Cmb = 0.00645599
+
+
+NewDeltaT = 11
+
+ExecutionTime = 74.65 s  ClockTime = 98 s
+
+Time = 2310
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61013e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33754e-09
+
+
+Cmb = 0.00642524
+
+
+NewDeltaT = 11
+
+ExecutionTime = 74.97 s  ClockTime = 99 s
+
+Time = 2321
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.6005e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12455e-09
+
+
+Cmb = 0.00639479
+
+
+NewDeltaT = 11
+
+ExecutionTime = 75.45 s  ClockTime = 99 s
+
+Time = 2332
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60843e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33469e-09
+
+
+Cmb = 0.00636463
+
+
+NewDeltaT = 11
+
+ExecutionTime = 76.02 s  ClockTime = 100 s
+
+Time = 2343
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.5984e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12096e-09
+
+
+Cmb = 0.00633475
+
+
+NewDeltaT = 11
+
+ExecutionTime = 76.5 s  ClockTime = 101 s
+
+Time = 2354
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61009e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33741e-09
+
+
+Cmb = 0.00630515
+
+
+NewDeltaT = 11
+
+ExecutionTime = 76.9 s  ClockTime = 101 s
+
+Time = 2365
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60049e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12446e-09
+
+
+Cmb = 0.00627582
+
+
+NewDeltaT = 11
+
+ExecutionTime = 77.21 s  ClockTime = 102 s
+
+Time = 2376
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60848e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33462e-09
+
+
+Cmb = 0.00624677
+
+
+NewDeltaT = 11
+
+ExecutionTime = 77.49 s  ClockTime = 102 s
+
+Time = 2387
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59842e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12106e-09
+
+
+Cmb = 0.00621798
+
+
+NewDeltaT = 11
+
+ExecutionTime = 77.82 s  ClockTime = 103 s
+
+Time = 2398
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61006e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33741e-09
+
+
+Cmb = 0.00618946
+
+
+NewDeltaT = 11
+
+ExecutionTime = 78.17 s  ClockTime = 103 s
+
+Time = 2409
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60049e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12448e-09
+
+
+Cmb = 0.00616119
+
+
+NewDeltaT = 11
+
+ExecutionTime = 78.66 s  ClockTime = 104 s
+
+Time = 2420
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60853e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33473e-09
+
+
+Cmb = 0.00613319
+
+
+NewDeltaT = 11
+
+ExecutionTime = 79.09 s  ClockTime = 104 s
+
+Time = 2431
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59843e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12113e-09
+
+
+Cmb = 0.00610544
+
+
+NewDeltaT = 11
+
+ExecutionTime = 79.3 s  ClockTime = 105 s
+
+Time = 2442
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.61002e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.3373e-09
+
+
+Cmb = 0.00607793
+
+
+NewDeltaT = 11
+
+ExecutionTime = 79.73 s  ClockTime = 105 s
+
+Time = 2453
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60048e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12438e-09
+
+
+Cmb = 0.00605068
+
+
+NewDeltaT = 11
+
+ExecutionTime = 80.06 s  ClockTime = 105 s
+
+Time = 2464
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60857e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33471e-09
+
+
+Cmb = 0.00602367
+
+
+NewDeltaT = 11
+
+ExecutionTime = 80.36 s  ClockTime = 106 s
+
+Time = 2475
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59845e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.1212e-09
+
+
+Cmb = 0.0059969
+
+
+NewDeltaT = 11
+
+ExecutionTime = 80.55 s  ClockTime = 106 s
+
+Time = 2486
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60999e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33725e-09
+
+
+Cmb = 0.00597036
+
+
+NewDeltaT = 11
+
+ExecutionTime = 80.79 s  ClockTime = 106 s
+
+Time = 2497
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60047e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12427e-09
+
+
+Cmb = 0.00594406
+
+
+NewDeltaT = 11
+
+ExecutionTime = 81.03 s  ClockTime = 107 s
+
+Time = 2508
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60862e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33486e-09
+
+
+Cmb = 0.00591799
+
+
+NewDeltaT = 11
+
+ExecutionTime = 81.37 s  ClockTime = 107 s
+
+Time = 2519
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59847e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12129e-09
+
+
+Cmb = 0.00589215
+
+
+NewDeltaT = 11
+
+ExecutionTime = 81.8 s  ClockTime = 108 s
+
+Time = 2530
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60995e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.3372e-09
+
+
+Cmb = 0.00586653
+
+
+NewDeltaT = 11
+
+ExecutionTime = 82.47 s  ClockTime = 109 s
+
+Time = 2541
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60047e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12422e-09
+
+
+Cmb = 0.00584113
+
+
+NewDeltaT = 11
+
+ExecutionTime = 82.97 s  ClockTime = 109 s
+
+Time = 2552
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60866e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33483e-09
+
+
+Cmb = 0.00581596
+
+
+NewDeltaT = 11
+
+ExecutionTime = 83.28 s  ClockTime = 110 s
+
+Time = 2563
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59848e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12141e-09
+
+
+Cmb = 0.00579099
+
+
+NewDeltaT = 11
+
+ExecutionTime = 83.59 s  ClockTime = 110 s
+
+Time = 2574
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60992e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33728e-09
+
+
+Cmb = 0.00576625
+
+
+NewDeltaT = 11
+
+ExecutionTime = 83.9 s  ClockTime = 110 s
+
+Time = 2585
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60046e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12418e-09
+
+
+Cmb = 0.00574171
+
+
+NewDeltaT = 11
+
+ExecutionTime = 84.15 s  ClockTime = 111 s
+
+Time = 2596
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60871e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.3349e-09
+
+
+Cmb = 0.00571738
+
+
+NewDeltaT = 11
+
+ExecutionTime = 84.5 s  ClockTime = 111 s
+
+Time = 2607
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.5985e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12141e-09
+
+
+Cmb = 0.00569326
+
+
+NewDeltaT = 11
+
+ExecutionTime = 84.82 s  ClockTime = 111 s
+
+Time = 2618
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60989e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33708e-09
+
+
+Cmb = 0.00566933
+
+
+NewDeltaT = 11
+
+ExecutionTime = 85.33 s  ClockTime = 112 s
+
+Time = 2629
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60045e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.1241e-09
+
+
+Cmb = 0.00564561
+
+
+NewDeltaT = 11
+
+ExecutionTime = 85.79 s  ClockTime = 113 s
+
+Time = 2640
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60875e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33504e-09
+
+
+Cmb = 0.00562209
+
+
+NewDeltaT = 11
+
+ExecutionTime = 86.21 s  ClockTime = 113 s
+
+Time = 2651
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59851e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12149e-09
+
+
+Cmb = 0.00559876
+
+
+NewDeltaT = 11
+
+ExecutionTime = 86.67 s  ClockTime = 114 s
+
+Time = 2662
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60986e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33705e-09
+
+
+Cmb = 0.00557563
+
+
+NewDeltaT = 11
+
+ExecutionTime = 87 s  ClockTime = 114 s
+
+Time = 2673
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60045e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12409e-09
+
+
+Cmb = 0.00555268
+
+
+NewDeltaT = 11
+
+ExecutionTime = 87.25 s  ClockTime = 115 s
+
+Time = 2684
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60879e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33505e-09
+
+
+Cmb = 0.00552992
+
+
+NewDeltaT = 11
+
+ExecutionTime = 87.47 s  ClockTime = 115 s
+
+Time = 2695
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59853e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12153e-09
+
+
+Cmb = 0.00550735
+
+
+NewDeltaT = 11
+
+ExecutionTime = 87.75 s  ClockTime = 115 s
+
+Time = 2706
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60983e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.3371e-09
+
+
+Cmb = 0.00548497
+
+
+NewDeltaT = 11
+
+ExecutionTime = 88.38 s  ClockTime = 116 s
+
+Time = 2717
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60044e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12403e-09
+
+
+Cmb = 0.00546276
+
+
+NewDeltaT = 11
+
+ExecutionTime = 88.92 s  ClockTime = 117 s
+
+Time = 2728
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60882e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33507e-09
+
+
+Cmb = 0.00544073
+
+
+NewDeltaT = 11
+
+ExecutionTime = 89.26 s  ClockTime = 118 s
+
+Time = 2739
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59854e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12161e-09
+
+
+Cmb = 0.00541888
+
+
+NewDeltaT = 11
+
+ExecutionTime = 89.68 s  ClockTime = 118 s
+
+Time = 2750
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60981e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33702e-09
+
+
+Cmb = 0.00539721
+
+
+NewDeltaT = 11
+
+ExecutionTime = 89.96 s  ClockTime = 118 s
+
+Time = 2761
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60044e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12399e-09
+
+
+Cmb = 0.0053757
+
+
+NewDeltaT = 11
+
+ExecutionTime = 90.23 s  ClockTime = 119 s
+
+Time = 2772
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60886e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33516e-09
+
+
+Cmb = 0.00535437
+
+
+NewDeltaT = 11
+
+ExecutionTime = 90.59 s  ClockTime = 119 s
+
+Time = 2783
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59855e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.1216e-09
+
+
+Cmb = 0.00533321
+
+
+NewDeltaT = 11
+
+ExecutionTime = 90.99 s  ClockTime = 120 s
+
+Time = 2794
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60978e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33701e-09
+
+
+Cmb = 0.00531221
+
+
+NewDeltaT = 11
+
+ExecutionTime = 91.47 s  ClockTime = 120 s
+
+Time = 2805
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60043e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12393e-09
+
+
+Cmb = 0.00529138
+
+
+NewDeltaT = 11
+
+ExecutionTime = 91.89 s  ClockTime = 121 s
+
+Time = 2816
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60889e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33522e-09
+
+
+Cmb = 0.00527071
+
+
+NewDeltaT = 11
+
+ExecutionTime = 92.28 s  ClockTime = 122 s
+
+Time = 2827
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59856e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12168e-09
+
+
+Cmb = 0.0052502
+
+
+NewDeltaT = 11
+
+ExecutionTime = 92.53 s  ClockTime = 122 s
+
+Time = 2838
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60975e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33699e-09
+
+
+Cmb = 0.00522985
+
+
+NewDeltaT = 11
+
+ExecutionTime = 92.8 s  ClockTime = 122 s
+
+Time = 2849
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60043e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12388e-09
+
+
+Cmb = 0.00520966
+
+
+NewDeltaT = 11
+
+ExecutionTime = 93.03 s  ClockTime = 122 s
+
+Time = 2860
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60893e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33529e-09
+
+
+Cmb = 0.00518962
+
+
+NewDeltaT = 11
+
+ExecutionTime = 93.28 s  ClockTime = 123 s
+
+Time = 2871
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59857e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12178e-09
+
+
+Cmb = 0.00516974
+
+
+NewDeltaT = 11
+
+ExecutionTime = 93.61 s  ClockTime = 123 s
+
+Time = 2882
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60973e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33694e-09
+
+
+Cmb = 0.00515001
+
+
+NewDeltaT = 11
+
+ExecutionTime = 93.87 s  ClockTime = 123 s
+
+Time = 2893
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60042e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12386e-09
+
+
+Cmb = 0.00513042
+
+
+NewDeltaT = 11
+
+ExecutionTime = 94.16 s  ClockTime = 124 s
+
+Time = 2904
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60896e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33517e-09
+
+
+Cmb = 0.00511099
+
+
+NewDeltaT = 11
+
+ExecutionTime = 94.5 s  ClockTime = 124 s
+
+Time = 2915
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59858e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12172e-09
+
+
+Cmb = 0.0050917
+
+
+NewDeltaT = 11
+
+ExecutionTime = 94.8 s  ClockTime = 125 s
+
+Time = 2926
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.6097e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33687e-09
+
+
+Cmb = 0.00507256
+
+
+NewDeltaT = 11
+
+ExecutionTime = 95.11 s  ClockTime = 125 s
+
+Time = 2937
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60042e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12377e-09
+
+
+Cmb = 0.00505356
+
+
+NewDeltaT = 11
+
+ExecutionTime = 95.36 s  ClockTime = 125 s
+
+Time = 2948
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60899e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33531e-09
+
+
+Cmb = 0.00503471
+
+
+NewDeltaT = 11
+
+ExecutionTime = 95.71 s  ClockTime = 126 s
+
+Time = 2959
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.5986e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12184e-09
+
+
+Cmb = 0.00501599
+
+
+NewDeltaT = 11
+
+ExecutionTime = 96.01 s  ClockTime = 126 s
+
+Time = 2970
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60968e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33691e-09
+
+
+Cmb = 0.00499741
+
+
+NewDeltaT = 11
+
+ExecutionTime = 96.27 s  ClockTime = 126 s
+
+Time = 2981
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60042e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12376e-09
+
+
+Cmb = 0.00497897
+
+
+NewDeltaT = 11
+
+ExecutionTime = 96.49 s  ClockTime = 127 s
+
+Time = 2992
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60902e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33539e-09
+
+
+Cmb = 0.00496067
+
+
+NewDeltaT = 11
+
+ExecutionTime = 96.76 s  ClockTime = 127 s
+
+Time = 3003
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.5986e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12183e-09
+
+
+Cmb = 0.0049425
+
+
+NewDeltaT = 11
+
+ExecutionTime = 97.03 s  ClockTime = 127 s
+
+Time = 3014
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60966e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33684e-09
+
+
+Cmb = 0.00492446
+
+
+NewDeltaT = 11
+
+ExecutionTime = 97.33 s  ClockTime = 128 s
+
+Time = 3025
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60041e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12373e-09
+
+
+Cmb = 0.00490655
+
+
+NewDeltaT = 11
+
+ExecutionTime = 97.82 s  ClockTime = 129 s
+
+Time = 3036
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60904e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33534e-09
+
+
+Cmb = 0.00488877
+
+
+NewDeltaT = 11
+
+ExecutionTime = 98.24 s  ClockTime = 129 s
+
+Time = 3047
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59861e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12191e-09
+
+
+Cmb = 0.00487113
+
+
+NewDeltaT = 11
+
+ExecutionTime = 98.63 s  ClockTime = 129 s
+
+Time = 3058
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60964e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33681e-09
+
+
+Cmb = 0.0048536
+
+
+NewDeltaT = 11
+
+ExecutionTime = 98.88 s  ClockTime = 130 s
+
+Time = 3069
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60041e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.1237e-09
+
+
+Cmb = 0.00483621
+
+
+NewDeltaT = 11
+
+ExecutionTime = 99.21 s  ClockTime = 130 s
+
+Time = 3080
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60907e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33533e-09
+
+
+Cmb = 0.00481894
+
+
+NewDeltaT = 11
+
+ExecutionTime = 99.39 s  ClockTime = 130 s
+
+Time = 3091
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59862e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12193e-09
+
+
+Cmb = 0.00480179
+
+
+NewDeltaT = 11
+
+ExecutionTime = 99.66 s  ClockTime = 131 s
+
+Time = 3102
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60962e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33676e-09
+
+
+Cmb = 0.00478476
+
+
+NewDeltaT = 11
+
+ExecutionTime = 99.97 s  ClockTime = 131 s
+
+Time = 3113
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.6004e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12373e-09
+
+
+Cmb = 0.00476785
+
+
+NewDeltaT = 11
+
+ExecutionTime = 100.2 s  ClockTime = 131 s
+
+Time = 3124
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60909e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33532e-09
+
+
+Cmb = 0.00475106
+
+
+NewDeltaT = 11
+
+ExecutionTime = 100.47 s  ClockTime = 132 s
+
+Time = 3135
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59863e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12202e-09
+
+
+Cmb = 0.00473439
+
+
+NewDeltaT = 11
+
+ExecutionTime = 100.73 s  ClockTime = 132 s
+
+Time = 3146
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.6096e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33677e-09
+
+
+Cmb = 0.00471784
+
+
+NewDeltaT = 11
+
+ExecutionTime = 101.21 s  ClockTime = 133 s
+
+Time = 3157
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.6004e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12368e-09
+
+
+Cmb = 0.0047014
+
+
+NewDeltaT = 11
+
+ExecutionTime = 101.78 s  ClockTime = 133 s
+
+Time = 3168
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60912e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33539e-09
+
+
+Cmb = 0.00468508
+
+
+NewDeltaT = 11
+
+ExecutionTime = 102.25 s  ClockTime = 134 s
+
+Time = 3179
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59864e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12202e-09
+
+
+Cmb = 0.00466886
+
+
+NewDeltaT = 11
+
+ExecutionTime = 102.59 s  ClockTime = 134 s
+
+Time = 3190
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60958e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33673e-09
+
+
+Cmb = 0.00465277
+
+
+NewDeltaT = 11
+
+ExecutionTime = 102.93 s  ClockTime = 135 s
+
+Time = 3201
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.6004e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12359e-09
+
+
+Cmb = 0.00463678
+
+
+NewDeltaT = 11
+
+ExecutionTime = 103.18 s  ClockTime = 135 s
+
+Time = 3212
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60914e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33546e-09
+
+
+Cmb = 0.0046209
+
+
+NewDeltaT = 11
+
+ExecutionTime = 103.46 s  ClockTime = 136 s
+
+Time = 3223
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59865e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12208e-09
+
+
+Cmb = 0.00460513
+
+
+NewDeltaT = 11
+
+ExecutionTime = 103.67 s  ClockTime = 136 s
+
+Time = 3234
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60956e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33667e-09
+
+
+Cmb = 0.00458946
+
+
+NewDeltaT = 11
+
+ExecutionTime = 103.85 s  ClockTime = 136 s
+
+Time = 3245
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60039e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.1236e-09
+
+
+Cmb = 0.0045739
+
+
+NewDeltaT = 11
+
+ExecutionTime = 104.21 s  ClockTime = 136 s
+
+Time = 3256
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60916e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33539e-09
+
+
+Cmb = 0.00455845
+
+
+NewDeltaT = 11
+
+ExecutionTime = 104.76 s  ClockTime = 137 s
+
+Time = 3267
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59866e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12213e-09
+
+
+Cmb = 0.0045431
+
+
+NewDeltaT = 11
+
+ExecutionTime = 105.28 s  ClockTime = 138 s
+
+Time = 3278
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60954e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33665e-09
+
+
+Cmb = 0.00452786
+
+
+NewDeltaT = 11
+
+ExecutionTime = 105.58 s  ClockTime = 138 s
+
+Time = 3289
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60039e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12357e-09
+
+
+Cmb = 0.00451272
+
+
+NewDeltaT = 11
+
+ExecutionTime = 105.96 s  ClockTime = 139 s
+
+Time = 3300
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60918e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33553e-09
+
+
+Cmb = 0.00449767
+
+
+NewDeltaT = 11
+
+ExecutionTime = 106.27 s  ClockTime = 139 s
+
+Time = 3311
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59866e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12211e-09
+
+
+Cmb = 0.00448273
+
+
+NewDeltaT = 11
+
+ExecutionTime = 106.53 s  ClockTime = 139 s
+
+Time = 3322
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60952e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33665e-09
+
+
+Cmb = 0.00446789
+
+
+NewDeltaT = 11
+
+ExecutionTime = 106.81 s  ClockTime = 140 s
+
+Time = 3333
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60039e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12352e-09
+
+
+Cmb = 0.00445314
+
+
+NewDeltaT = 11
+
+ExecutionTime = 107.07 s  ClockTime = 140 s
+
+Time = 3344
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.6092e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33552e-09
+
+
+Cmb = 0.00443849
+
+
+NewDeltaT = 11
+
+ExecutionTime = 107.29 s  ClockTime = 140 s
+
+Time = 3355
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59867e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12215e-09
+
+
+Cmb = 0.00442394
+
+
+NewDeltaT = 11
+
+ExecutionTime = 107.61 s  ClockTime = 141 s
+
+Time = 3366
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60951e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33666e-09
+
+
+Cmb = 0.00440948
+
+
+NewDeltaT = 11
+
+ExecutionTime = 107.99 s  ClockTime = 141 s
+
+Time = 3377
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60038e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12349e-09
+
+
+Cmb = 0.00439512
+
+
+NewDeltaT = 11
+
+ExecutionTime = 108.42 s  ClockTime = 142 s
+
+Time = 3388
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60922e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33556e-09
+
+
+Cmb = 0.00438085
+
+
+NewDeltaT = 11
+
+ExecutionTime = 108.66 s  ClockTime = 142 s
+
+Time = 3399
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59868e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.1222e-09
+
+
+Cmb = 0.00436667
+
+
+NewDeltaT = 11
+
+ExecutionTime = 109.02 s  ClockTime = 143 s
+
+Time = 3410
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60949e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33659e-09
+
+
+Cmb = 0.00435259
+
+
+NewDeltaT = 11
+
+ExecutionTime = 109.28 s  ClockTime = 143 s
+
+Time = 3421
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60038e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12344e-09
+
+
+Cmb = 0.00433859
+
+
+NewDeltaT = 11
+
+ExecutionTime = 109.48 s  ClockTime = 143 s
+
+Time = 3432
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60924e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33563e-09
+
+
+Cmb = 0.00432469
+
+
+NewDeltaT = 11
+
+ExecutionTime = 109.74 s  ClockTime = 143 s
+
+Time = 3443
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59868e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12224e-09
+
+
+Cmb = 0.00431087
+
+
+NewDeltaT = 11
+
+ExecutionTime = 110.01 s  ClockTime = 144 s
+
+Time = 3454
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60948e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33654e-09
+
+
+Cmb = 0.00429714
+
+
+NewDeltaT = 11
+
+ExecutionTime = 110.26 s  ClockTime = 144 s
+
+Time = 3465
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60038e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12344e-09
+
+
+Cmb = 0.0042835
+
+
+NewDeltaT = 11
+
+ExecutionTime = 110.53 s  ClockTime = 144 s
+
+Time = 3476
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60926e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33564e-09
+
+
+Cmb = 0.00426994
+
+
+NewDeltaT = 11
+
+ExecutionTime = 110.88 s  ClockTime = 145 s
+
+Time = 3487
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59869e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12219e-09
+
+
+Cmb = 0.00425647
+
+
+NewDeltaT = 11
+
+ExecutionTime = 111.27 s  ClockTime = 146 s
+
+Time = 3498
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60946e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33659e-09
+
+
+Cmb = 0.00424309
+
+
+NewDeltaT = 11
+
+ExecutionTime = 111.61 s  ClockTime = 146 s
+
+Time = 3509
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60038e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12344e-09
+
+
+Cmb = 0.00422979
+
+
+NewDeltaT = 11
+
+ExecutionTime = 111.85 s  ClockTime = 147 s
+
+Time = 3520
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60927e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33555e-09
+
+
+Cmb = 0.00421657
+
+
+NewDeltaT = 11
+
+ExecutionTime = 112.11 s  ClockTime = 147 s
+
+Time = 3531
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59869e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12228e-09
+
+
+Cmb = 0.00420343
+
+
+NewDeltaT = 11
+
+ExecutionTime = 112.34 s  ClockTime = 147 s
+
+Time = 3542
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60945e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33653e-09
+
+
+Cmb = 0.00419038
+
+
+NewDeltaT = 11
+
+ExecutionTime = 112.55 s  ClockTime = 147 s
+
+Time = 3553
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60037e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12337e-09
+
+
+Cmb = 0.00417741
+
+
+NewDeltaT = 11
+
+ExecutionTime = 112.83 s  ClockTime = 148 s
+
+Time = 3564
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60929e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33557e-09
+
+
+Cmb = 0.00416451
+
+
+NewDeltaT = 11
+
+ExecutionTime = 113.03 s  ClockTime = 148 s
+
+Time = 3575
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.5987e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12227e-09
+
+
+Cmb = 0.0041517
+
+
+NewDeltaT = 11
+
+ExecutionTime = 113.24 s  ClockTime = 148 s
+
+Time = 3586
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60943e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33651e-09
+
+
+Cmb = 0.00413896
+
+
+NewDeltaT = 11
+
+ExecutionTime = 113.66 s  ClockTime = 149 s
+
+Time = 3597
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60037e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12335e-09
+
+
+Cmb = 0.00412631
+
+
+NewDeltaT = 11
+
+ExecutionTime = 114.14 s  ClockTime = 150 s
+
+Time = 3608
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.6093e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33566e-09
+
+
+Cmb = 0.00411373
+
+
+NewDeltaT = 11
+
+ExecutionTime = 114.45 s  ClockTime = 151 s
+
+Time = 3619
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.5987e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12221e-09
+
+
+Cmb = 0.00410122
+
+
+NewDeltaT = 11
+
+ExecutionTime = 114.7 s  ClockTime = 151 s
+
+Time = 3630
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60942e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33647e-09
+
+
+Cmb = 0.00408879
+
+
+NewDeltaT = 11
+
+ExecutionTime = 114.94 s  ClockTime = 152 s
+
+Time = 3641
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60037e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12339e-09
+
+
+Cmb = 0.00407644
+
+
+NewDeltaT = 11
+
+ExecutionTime = 115.13 s  ClockTime = 152 s
+
+Time = 3652
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60932e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.3356e-09
+
+
+Cmb = 0.00406416
+
+
+NewDeltaT = 11
+
+ExecutionTime = 115.37 s  ClockTime = 153 s
+
+Time = 3663
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59871e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12232e-09
+
+
+Cmb = 0.00405196
+
+
+NewDeltaT = 11
+
+ExecutionTime = 115.84 s  ClockTime = 154 s
+
+Time = 3674
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60941e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33638e-09
+
+
+Cmb = 0.00403983
+
+
+NewDeltaT = 11
+
+ExecutionTime = 116.14 s  ClockTime = 155 s
+
+Time = 3685
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60037e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12333e-09
+
+
+Cmb = 0.00402777
+
+
+NewDeltaT = 11
+
+ExecutionTime = 116.37 s  ClockTime = 155 s
+
+Time = 3696
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60933e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33568e-09
+
+
+Cmb = 0.00401578
+
+
+NewDeltaT = 11
+
+ExecutionTime = 116.56 s  ClockTime = 156 s
+
+Time = 3707
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59871e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12235e-09
+
+
+Cmb = 0.00400386
+
+
+NewDeltaT = 11
+
+ExecutionTime = 116.78 s  ClockTime = 156 s
+
+Time = 3718
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60939e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33653e-09
+
+
+Cmb = 0.00399202
+
+
+NewDeltaT = 11
+
+ExecutionTime = 117.03 s  ClockTime = 157 s
+
+Time = 3729
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60036e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12333e-09
+
+
+Cmb = 0.00398024
+
+
+NewDeltaT = 11
+
+ExecutionTime = 117.5 s  ClockTime = 158 s
+
+Time = 3740
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60935e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.3357e-09
+
+
+Cmb = 0.00396854
+
+
+NewDeltaT = 11
+
+ExecutionTime = 117.86 s  ClockTime = 159 s
+
+Time = 3751
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59872e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12239e-09
+
+
+Cmb = 0.0039569
+
+
+NewDeltaT = 11
+
+ExecutionTime = 118.05 s  ClockTime = 159 s
+
+Time = 3762
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60938e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33646e-09
+
+
+Cmb = 0.00394533
+
+
+NewDeltaT = 11
+
+ExecutionTime = 118.21 s  ClockTime = 159 s
+
+Time = 3773
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60036e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12327e-09
+
+
+Cmb = 0.00393383
+
+
+NewDeltaT = 11
+
+ExecutionTime = 118.51 s  ClockTime = 160 s
+
+Time = 3784
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60936e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33562e-09
+
+
+Cmb = 0.00392239
+
+
+NewDeltaT = 11
+
+ExecutionTime = 118.74 s  ClockTime = 160 s
+
+Time = 3795
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59872e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12237e-09
+
+
+Cmb = 0.00391102
+
+
+NewDeltaT = 11
+
+ExecutionTime = 118.89 s  ClockTime = 160 s
+
+Time = 3806
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60937e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33643e-09
+
+
+Cmb = 0.00389972
+
+
+NewDeltaT = 11
+
+ExecutionTime = 119.1 s  ClockTime = 161 s
+
+Time = 3817
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60036e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12328e-09
+
+
+Cmb = 0.00388848
+
+
+NewDeltaT = 11
+
+ExecutionTime = 119.34 s  ClockTime = 161 s
+
+Time = 3828
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60937e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33576e-09
+
+
+Cmb = 0.00387731
+
+
+NewDeltaT = 11
+
+ExecutionTime = 119.64 s  ClockTime = 162 s
+
+Time = 3839
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59873e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.1224e-09
+
+
+Cmb = 0.0038662
+
+
+NewDeltaT = 11
+
+ExecutionTime = 120.04 s  ClockTime = 163 s
+
+Time = 3850
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60936e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33644e-09
+
+
+Cmb = 0.00385515
+
+
+NewDeltaT = 11
+
+ExecutionTime = 120.35 s  ClockTime = 163 s
+
+Time = 3861
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60036e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12328e-09
+
+
+Cmb = 0.00384417
+
+
+NewDeltaT = 11
+
+ExecutionTime = 120.54 s  ClockTime = 164 s
+
+Time = 3872
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60938e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33569e-09
+
+
+Cmb = 0.00383325
+
+
+NewDeltaT = 11
+
+ExecutionTime = 120.78 s  ClockTime = 164 s
+
+Time = 3883
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59873e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12235e-09
+
+
+Cmb = 0.00382239
+
+
+NewDeltaT = 11
+
+ExecutionTime = 120.97 s  ClockTime = 165 s
+
+Time = 3894
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60935e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33639e-09
+
+
+Cmb = 0.00381159
+
+
+NewDeltaT = 11
+
+ExecutionTime = 121.19 s  ClockTime = 165 s
+
+Time = 3905
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60036e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12323e-09
+
+
+Cmb = 0.00380085
+
+
+NewDeltaT = 11
+
+ExecutionTime = 121.71 s  ClockTime = 167 s
+
+Time = 3916
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60939e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.3358e-09
+
+
+Cmb = 0.00379017
+
+
+NewDeltaT = 11
+
+ExecutionTime = 122.03 s  ClockTime = 168 s
+
+Time = 3927
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.59874e-06, No Iterations 73
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 9.12243e-09
+
+
+Cmb = 0.00377956
+
+
+NewDeltaT = 11
+
+ExecutionTime = 122.3 s  ClockTime = 168 s
+
+Time = 3938
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 8.60934e-06, No Iterations 74
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+Q_inj = 180000
+
+Imb = 2.33634e-09
+
+
+Cmb = 0.003769
+
+
+NewDeltaT = 11
+
+ExecutionTime = 122.47 s  ClockTime = 168 s
+
+Time = 3949
+
+Solving Pressure Equation

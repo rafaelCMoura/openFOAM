@@ -1,0 +1,158 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  1.6                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 1.6-f802ff2d6c5a
+Exec   : blockMesh
+Date   : Feb 25 2010
+Time   : 12:51:31
+Host   : pc-rafael
+PID    : 2776
+Case   : /media/Arquivos/FOAMwork/done/HeatTransient/case2D
+nProcs : 1
+SigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+
+Creating block mesh from
+    "/media/Arquivos/FOAMwork/done/HeatTransient/case2D/constant/polyMesh/blockMeshDict"
+
+
+Creating blockCorners
+
+Creating curved edges
+
+Creating blocks
+
+Creating patches
+
+Creating block mesh topology
+
+Default patch type set to empty
+
+Check block mesh topology
+
+	Basic statistics
+		Number of internal faces : 0
+		Number of boundary faces : 6
+		Number of defined boundary faces : 6
+		Number of undefined boundary faces : 0
+
+	Checking patch -> block consistency
+
+Creating block offsets
+
+Creating merge list .
+
+Creating points with scale 1
+
+Creating cells
+
+Creating patches
+
+Creating mesh from block mesh
+
+Default patch type set to empty
+
+Writing polyMesh
+
+End
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  1.6                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 1.6-f802ff2d6c5a
+Exec   : HeatTransient
+Date   : Feb 25 2010
+Time   : 12:51:31
+Host   : pc-rafael
+PID    : 2777
+Case   : /media/Arquivos/FOAMwork/done/HeatTransient/case2D
+nProcs : 1
+SigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+// using new solver syntax:
+T
+{
+    solver          PCG;
+    preconditioner  DIC;
+    tolerance       1e-06;
+    relTol          0;
+}
+
+Reading field T
+
+Reading field K
+
+Reading field Q
+
+Reading field alpha
+
+
+Starting time loop
+
+Time = 0.1
+
+DICPCG:  Solving for T, Initial residual = 1, Final residual = 4.38934e-07, No Iterations 18
+ExecutionTime = 0.02 s  ClockTime = 0 s
+
+Time = 0.2
+
+DICPCG:  Solving for T, Initial residual = 0.0171163, Final residual = 3.53123e-07, No Iterations 14
+ExecutionTime = 0.02 s  ClockTime = 0 s
+
+Time = 0.3
+
+DICPCG:  Solving for T, Initial residual = 0.00349723, Final residual = 3.81033e-07, No Iterations 11
+ExecutionTime = 0.03 s  ClockTime = 1 s
+
+Time = 0.4
+
+DICPCG:  Solving for T, Initial residual = 0.00106682, Final residual = 6.31032e-07, No Iterations 8
+ExecutionTime = 0.03 s  ClockTime = 1 s
+
+Time = 0.5
+
+DICPCG:  Solving for T, Initial residual = 0.000350505, Final residual = 4.09081e-07, No Iterations 7
+ExecutionTime = 0.04 s  ClockTime = 1 s
+
+Time = 0.6
+
+DICPCG:  Solving for T, Initial residual = 0.000117228, Final residual = 6.80182e-07, No Iterations 5
+ExecutionTime = 0.04 s  ClockTime = 1 s
+
+Time = 0.7
+
+DICPCG:  Solving for T, Initial residual = 3.93774e-05, Final residual = 4.61076e-07, No Iterations 4
+ExecutionTime = 0.04 s  ClockTime = 1 s
+
+Time = 0.8
+
+DICPCG:  Solving for T, Initial residual = 1.33061e-05, Final residual = 3.31501e-07, No Iterations 3
+ExecutionTime = 0.04 s  ClockTime = 1 s
+
+Time = 0.9
+
+DICPCG:  Solving for T, Initial residual = 4.45071e-06, Final residual = 5.24191e-07, No Iterations 2
+ExecutionTime = 0.05 s  ClockTime = 1 s
+
+Time = 1
+
+DICPCG:  Solving for T, Initial residual = 1.60697e-06, Final residual = 6.32715e-07, No Iterations 2
+ExecutionTime = 0.05 s  ClockTime = 1 s
+
+End
+

@@ -1,0 +1,3 @@
+HeatPermanent.C
+
+EXE = $(FOAM_APPBIN)/HeatPermanent

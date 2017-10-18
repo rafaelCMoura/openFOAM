@@ -1,0 +1,106 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  1.6                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 1.6-f802ff2d6c5a
+Exec   : blockMesh
+Date   : Feb 23 2010
+Time   : 19:51:18
+Host   : pc-rafael
+PID    : 3289
+Case   : /media/Arquivos/FOAMwork/done/HeatPermanent/case1D
+nProcs : 1
+SigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+
+Creating block mesh from
+    "/media/Arquivos/FOAMwork/done/HeatPermanent/case1D/constant/polyMesh/blockMeshDict"
+
+
+Creating blockCorners
+
+Creating curved edges
+
+Creating blocks
+
+Creating patches
+
+Creating block mesh topology
+
+Default patch type set to empty
+
+Check block mesh topology
+
+	Basic statistics
+		Number of internal faces : 0
+		Number of boundary faces : 6
+		Number of defined boundary faces : 6
+		Number of undefined boundary faces : 0
+
+	Checking patch -> block consistency
+
+Creating block offsets
+
+Creating merge list .
+
+Creating points with scale 1
+
+Creating cells
+
+Creating patches
+
+Creating mesh from block mesh
+
+Default patch type set to empty
+
+Writing polyMesh
+
+End
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  1.6                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 1.6-f802ff2d6c5a
+Exec   : HeatPermanent
+Date   : Feb 23 2010
+Time   : 19:51:18
+Host   : pc-rafael
+PID    : 3290
+Case   : /media/Arquivos/FOAMwork/done/HeatPermanent/case1D
+nProcs : 1
+SigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+// using new solver syntax:
+T
+{
+    solver          PCG;
+    preconditioner  DIC;
+    tolerance       1e-06;
+    relTol          0;
+}
+
+Reading field T
+
+Reading field Q
+
+
+Starting time loop
+
+Time = 0
+DICPCG:  Solving for T, Initial residual = 6.25368e-16, Final residual = 6.25368e-16, No Iterations 0
+ExecutionTime = 0.02 s  ClockTime = 0 s
+

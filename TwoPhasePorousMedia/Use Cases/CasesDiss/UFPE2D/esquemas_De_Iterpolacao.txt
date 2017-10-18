@@ -1,0 +1,98 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  1.7.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 1.7.0-279cc8e8233b
+Exec   : IMPES
+Date   : Aug 26 2010
+Time   : 22:57:22
+Host   : pc-rafael
+PID    : 2876
+Case   : /media/Arquivos/SimulatorIMPES/v102/case3D
+nProcs : 1
+SigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Reading fields
+
+Reading problem parameters
+
+Creating tables
+Setting sources
+
+
+--> FOAM FATAL IO ERROR: 
+Unknown discretisation scheme limitedLinear0
+
+Valid schemes are :
+
+51
+(
+Gamma
+Gamma01
+MUSCL
+MUSCL01
+Minmod
+OSPRE
+QUICK
+SFCD
+SuperBee
+UMIST
+biLinearFit
+blended
+clippedLinear
+cubic
+cubicUpwindFit
+downwind
+filteredLinear
+filteredLinear2
+filteredLinear3
+fixedBlended
+harmonic
+limitWith
+limitedCubic
+limitedCubic01
+limitedGamma
+limitedLimitedCubic
+limitedLimitedLinear
+limitedLinear
+limitedLinear01
+limitedMUSCL
+limitedVanLeer
+linear
+linearFit
+linearPureUpwindFit
+linearUpwind
+localBlended
+localMax
+localMin
+midPoint
+outletStabilised
+quadraticFit
+quadraticLinearFit
+quadraticLinearUpwindFit
+quadraticUpwindFit
+reverseLinear
+skewCorrected
+upwind
+vanAlbada
+vanLeer
+vanLeer01
+weighted
+)
+
+
+file: /media/Arquivos/SimulatorIMPES/v102/case3D/system/fvSchemes::interpolationSchemes::interpolate(kr_o) at line 43.
+
+    From function surfaceInterpolationScheme<Type>::New(const fvMesh&, Istream&)
+    in file /opt/openfoam170/src/finiteVolume/lnInclude/surfaceInterpolationScheme.C at line 82.
+
+FOAM exiting
+

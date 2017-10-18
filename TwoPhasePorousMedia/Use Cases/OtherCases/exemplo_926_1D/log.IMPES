@@ -1,0 +1,51 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.0.1                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.0.1-51f1de99a4bc
+Exec   : IMPES
+Date   : Dec 06 2011
+Time   : 22:15:32
+Host   : rafael-VPCEA25FB
+PID    : 3383
+Case   : /home/rafael/Documents/SimulatorIMPES/v103/exemplo_926_1D
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Disallowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Reading fields                     [  OK  ]
+Reading problem parameters         [  OK  ]
+Creating tables                    [  OK  ]
+Initializationg problem fields     [  OK  ]
+Setting sources                    [  OK  ]
+Calculationg equation coefficients [  OK  ]
+Refference Pressure                [  OK  ]
+Reference pressure 1000 at cell 3
+
+Starting time loop
+
+Time = 100
+
+Solving Pressure Equation
+DICPCG:  Solving for po, Initial residual = 1, Final residual = 1.09774e-15, No Iterations 1
+Solving Saturation Equation
+diagonal:  Solving for sw, Initial residual = 0, Final residual = 0, No Iterations 0
+#0  Foam::error::printStack(Foam::Ostream&) in "/opt/openfoam201/platforms/linuxGccDPOpt/lib/libOpenFOAM.so"
+#1  Foam::sigFpe::sigHandler(int) in "/opt/openfoam201/platforms/linuxGccDPOpt/lib/libOpenFOAM.so"
+#2  Uninterpreted: 
+#3  Foam::dimensioned<double> Foam::operator/<double>(Foam::dimensioned<double> const&, Foam::dimensioned<double> const&) in "/opt/openfoam201/platforms/linuxGccDPOpt/bin/IMPES"
+#4  
+ in "/opt/openfoam201/platforms/linuxGccDPOpt/bin/IMPES"
+#5  __libc_start_main in "/lib/i386-linux-gnu/libc.so.6"
+#6  
+ in "/opt/openfoam201/platforms/linuxGccDPOpt/bin/IMPES"
+Floating point exception

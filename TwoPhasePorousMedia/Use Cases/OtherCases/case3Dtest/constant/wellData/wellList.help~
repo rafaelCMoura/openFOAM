@@ -1,0 +1,14 @@
+nWells     - Number of wells in file 
+Fw         - 0 to oil 1 to water 
+wellOpt    - 1 to discrete well 0 to continuous line well (use spline interpolation)
+wellType   - 1 to injector well 0 to productor
+qWell      - Fluid flow rate value
+nPoints    - Number of points specified
+x1 y1 z1   - Point 1
+x2 y2 z2   - Point 2
+x3 y3 z3   - Point 3
+x4 y4 z4   - Point 4
+.  .  .      .
+.  .  .      .
+.  .  .      .
+xn yn zn   - Point n = nPoints

@@ -1,0 +1,3 @@
+Single.C
+
+EXE = $(FOAM_APPBIN)/Single

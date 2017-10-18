@@ -1,0 +1,43 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.0.1                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.0.1-51f1de99a4bc
+Exec   : setFields
+Date   : Dec 06 2011
+Time   : 22:15:32
+Host   : rafael-VPCEA25FB
+PID    : 3382
+Case   : /home/rafael/Documents/SimulatorIMPES/v103/exemplo_926_1D
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Disallowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Reading setFieldsDict
+
+Setting field default values
+--> FOAM Warning : 
+    From function void setCellFieldType(const fvMesh& mesh, const labelList& selectedCells,Istream& fieldValueStream)
+    in file setFields.C at line 104
+    Field qw not found
+
+
+--> FOAM FATAL IO ERROR: 
+wrong token type - expected word, found on line 20 the label 0
+
+file: /home/rafael/Documents/SimulatorIMPES/v103/exemplo_926_1D/system/setFieldsDict::defaultFieldValues at line 20.
+
+    From function operator>>(Istream&, word&)
+    in file primitives/strings/word/wordIO.C at line 74.
+
+FOAM exiting
+

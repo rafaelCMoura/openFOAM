@@ -1,0 +1,72 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.0.1                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.0.1-51f1de99a4bc
+Exec   : blockMesh
+Date   : Dec 14 2011
+Time   : 12:56:57
+Host   : rafael-VPCEA25FB
+PID    : 1987
+Case   : /home/rafael/Documents/SimulatorIMPES/v103/case1D
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Disallowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Creating block mesh from
+    "/home/rafael/Documents/SimulatorIMPES/v103/case1D/constant/polyMesh/blockMeshDict"
+Creating curved edges
+Creating topology blocks
+Creating topology patches
+
+Reading patches section
+
+Creating block mesh topology
+
+Reading physicalType from existing boundary file
+
+Default patch type set to empty
+
+Check topology
+
+	Basic statistics
+		Number of internal faces : 0
+		Number of boundary faces : 6
+		Number of defined boundary faces : 6
+		Number of undefined boundary faces : 0
+	Checking patch -> block consistency
+
+Creating block offsets
+Creating merge list .
+
+Creating polyMesh from blockMesh
+Creating patches
+Creating cells
+Creating points with scale 1
+
+Writing polyMesh
+----------------
+Mesh Information
+----------------
+  boundingBox: (0 0 0) (1000 25 25)
+  nPoints: 20
+  nCells: 4
+  nFaces: 21
+  nInternalFaces: 3
+----------------
+Patches
+----------------
+  patch 0 (start: 3 size: 1) name: left
+  patch 1 (start: 4 size: 1) name: right
+  patch 2 (start: 5 size: 8) name: contourUD
+  patch 3 (start: 13 size: 8) name: contourFB
+
+End
+

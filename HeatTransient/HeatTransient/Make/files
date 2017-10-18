@@ -1,0 +1,3 @@
+HeatTransient.C
+
+EXE = $(FOAM_APPBIN)/HeatTransient

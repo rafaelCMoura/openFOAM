@@ -1,0 +1,80 @@
+
+// Divergence schemes
+
+//linear         Second order, unbounded
+//skewLinear     Second order, (more) unbounded, skewness correction
+//cubicCorrected Fourth order, unbounded
+//upwind         First order, bounded
+//linearUpwind   First/second order, bounded
+//QUICK          First/second order, bounded
+//TVD schemes    First/second order, bounded
+//SFCD           Second order, bounded
+//NVD schemes    First/second order, bounded
+
+
+// Time schemes
+
+//Euler            First order, bounded, implicit
+//CrankNicholson   Second order, bounded, implicit
+//backward         Second order, implicit
+
+
+//MUSCL01
+//localBlended
+//Minmod
+//limitedCubic01
+//QUICK
+//MC
+//limitedGamma
+//upwind
+//limitedLinear01
+//GammaDC
+//filteredLinear2
+//vanLeerDC
+//vanLeer
+//limitedCubic
+//SFCD
+//midPoint
+//clippedLinear
+//outletStabilised
+//SuperBee
+//linearUpwind
+//filteredLinear
+//Gamma01
+//MUSCL
+//limitedVanLeer
+//limitedMUSCL
+//Gamma
+//limitedLimitedLinear
+//vanAlbada
+//downwind
+//localMin
+//localMax
+//limitedLinear
+//skewCorrected
+//linear
+//UMIST
+//reverseLinear
+//vanLeer01
+//limitedLimitedCubic
+//weighted
+//blended
+//cubic
+//harmonic
+//OSPRE
+
+
+
+/////////////////////////////////////// fo solution
+
+
+	//f GAMG           // generalized geometric-algebraic multi-grid
+	//f PBiCG          // or (PCG) Preconditioned (bi-)conjugate gradient
+	//f smoothSolver   // Solver using a smoother
+
+	//Diagonal incomplete-Cholesky (symmetric)               DIC
+	//Faster diagonal incomplete-Cholesky (DIC with caching) FDIC
+	//Diagonal incomplete-LU (asymmetric)                    DILU
+	//Diagonal                                               diagonal
+	//Geometric-algebraic multi-grid                         GAMG
+	//No preconditioning                                     none

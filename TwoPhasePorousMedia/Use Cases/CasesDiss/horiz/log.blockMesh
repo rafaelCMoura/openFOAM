@@ -1,0 +1,74 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.1.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.1.0-0bc225064152
+Exec   : blockMesh
+Date   : May 20 2012
+Time   : 16:51:57
+Host   : "rafael-vb"
+PID    : 9500
+Case   : /home/rafael/OpenFOAM/rafael-2.1.0/SimulatorIMPES/v104/CasesDiss/horiz
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Disallowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Creating block mesh from
+    "/home/rafael/OpenFOAM/rafael-2.1.0/SimulatorIMPES/v104/CasesDiss/horiz/constant/polyMesh/blockMeshDict"
+Creating curved edges
+Creating topology blocks
+Creating topology patches
+
+Reading patches section
+
+Creating block mesh topology
+
+Reading physicalType from existing boundary file
+
+Default patch type set to empty
+
+Check topology
+
+	Basic statistics
+		Number of internal faces : 0
+		Number of boundary faces : 6
+		Number of defined boundary faces : 6
+		Number of undefined boundary faces : 0
+	Checking patch -> block consistency
+
+Creating block offsets
+Creating merge list .
+
+Creating polyMesh from blockMesh
+Creating patches
+Creating cells
+Creating points with scale 1
+
+Writing polyMesh
+----------------
+Mesh Information
+----------------
+  boundingBox: (0 0 0) (20000 20000 2500)
+  nPoints: 10086
+  nCells: 8000
+  nFaces: 26000
+  nInternalFaces: 22000
+----------------
+Patches
+----------------
+  patch 0 (start: 22000 size: 200) name: left
+  patch 1 (start: 22200 size: 200) name: right
+  patch 2 (start: 22400 size: 200) name: up
+  patch 3 (start: 22600 size: 200) name: down
+  patch 4 (start: 22800 size: 1600) name: front
+  patch 5 (start: 24400 size: 1600) name: back
+
+End
+

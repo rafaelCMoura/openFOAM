@@ -1,0 +1,85 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  1.6                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 1.6-f802ff2d6c5a
+Exec   : HeatTransient
+Date   : Mar 22 2010
+Time   : 14:46:08
+Host   : pc-rafael
+PID    : 3398
+Case   : /media/Arquivos/FOAMwork/done/HeatTransient/case1D
+nProcs : 1
+SigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Reading field T
+
+Reading field K
+
+Reading field Q
+
+Reading field alpha
+
+
+Starting time loop
+
+Time = 0.1
+
+DICPCG:  Solving for T, Initial residual = 1, Final residual = 3.80125e-16, No Iterations 1
+ExecutionTime = 0.01 s  ClockTime = 0 s
+
+Time = 0.2
+
+DICPCG:  Solving for T, Initial residual = 0.0341495, Final residual = 5.45779e-17, No Iterations 1
+ExecutionTime = 0.01 s  ClockTime = 0 s
+
+Time = 0.3
+
+DICPCG:  Solving for T, Initial residual = 0.0125716, Final residual = 2.66123e-17, No Iterations 1
+ExecutionTime = 0.01 s  ClockTime = 0 s
+
+Time = 0.4
+
+DICPCG:  Solving for T, Initial residual = 0.00607112, Final residual = 1.31832e-17, No Iterations 1
+ExecutionTime = 0.01 s  ClockTime = 0 s
+
+Time = 0.5
+
+DICPCG:  Solving for T, Initial residual = 0.00303658, Final residual = 8.62151e-18, No Iterations 1
+ExecutionTime = 0.01 s  ClockTime = 0 s
+
+Time = 0.6
+
+DICPCG:  Solving for T, Initial residual = 0.00152783, Final residual = 3.68171e-18, No Iterations 1
+ExecutionTime = 0.01 s  ClockTime = 0 s
+
+Time = 0.7
+
+DICPCG:  Solving for T, Initial residual = 0.000769489, Final residual = 1.98556e-18, No Iterations 1
+ExecutionTime = 0.01 s  ClockTime = 0 s
+
+Time = 0.8
+
+DICPCG:  Solving for T, Initial residual = 0.000387639, Final residual = 1.16436e-18, No Iterations 1
+ExecutionTime = 0.01 s  ClockTime = 1 s
+
+Time = 0.9
+
+DICPCG:  Solving for T, Initial residual = 0.000195288, Final residual = 5.29999e-19, No Iterations 1
+ExecutionTime = 0.01 s  ClockTime = 1 s
+
+Time = 1
+
+DICPCG:  Solving for T, Initial residual = 9.83851e-05, Final residual = 3.01834e-19, No Iterations 1
+ExecutionTime = 0.01 s  ClockTime = 1 s
+
+End
+

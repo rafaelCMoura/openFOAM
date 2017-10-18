@@ -1,0 +1,354 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  1.6                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 1.6-f802ff2d6c5a
+Exec   : Advection
+Date   : Feb 25 2010
+Time   : 19:37:56
+Host   : pc-rafael
+PID    : 15309
+Case   : /media/Arquivos/FOAMwork/done/Advection/case3D
+nProcs : 1
+SigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+// using new solver syntax:
+f
+{
+    solver          PBiCG;
+    preconditioner  DILU;
+    tolerance       1e-06;
+    relTol          0;
+}
+
+Reading field f
+
+Reading field U
+
+
+Starting time loop
+
+Time = 0.02
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0225697, Final residual = 2.72595e-18, No Iterations 1
+ExecutionTime = 0.56 s  ClockTime = 1 s
+
+Time = 0.04
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0235566, Final residual = 2.42326e-18, No Iterations 1
+ExecutionTime = 0.66 s  ClockTime = 1 s
+
+Time = 0.06
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0237558, Final residual = 2.36532e-18, No Iterations 1
+ExecutionTime = 0.75 s  ClockTime = 1 s
+
+Time = 0.08
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0237719, Final residual = 2.44807e-18, No Iterations 1
+ExecutionTime = 0.84 s  ClockTime = 1 s
+
+Time = 0.1
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0246849, Final residual = 2.54352e-18, No Iterations 1
+ExecutionTime = 0.95 s  ClockTime = 1 s
+
+Time = 0.12
+
+DILUPBiCG:  Solving for f, Initial residual = 0.025623, Final residual = 2.46855e-18, No Iterations 1
+ExecutionTime = 1.03 s  ClockTime = 2 s
+
+Time = 0.14
+
+DILUPBiCG:  Solving for f, Initial residual = 0.02584, Final residual = 2.26847e-18, No Iterations 1
+ExecutionTime = 1.14 s  ClockTime = 2 s
+
+Time = 0.16
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0256784, Final residual = 2.31051e-18, No Iterations 1
+ExecutionTime = 1.24 s  ClockTime = 2 s
+
+Time = 0.18
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0252971, Final residual = 3.48497e-18, No Iterations 1
+ExecutionTime = 1.34 s  ClockTime = 2 s
+
+Time = 0.2
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0251693, Final residual = 2.54967e-18, No Iterations 1
+ExecutionTime = 1.44 s  ClockTime = 2 s
+
+Time = 0.22
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0255615, Final residual = 2.49344e-18, No Iterations 1
+ExecutionTime = 1.54 s  ClockTime = 2 s
+
+Time = 0.24
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0254605, Final residual = 2.65858e-18, No Iterations 1
+ExecutionTime = 1.64 s  ClockTime = 2 s
+
+Time = 0.26
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0250812, Final residual = 3.3835e-18, No Iterations 1
+ExecutionTime = 1.74 s  ClockTime = 2 s
+
+Time = 0.28
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0249329, Final residual = 2.54181e-18, No Iterations 1
+ExecutionTime = 1.82 s  ClockTime = 3 s
+
+Time = 0.3
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0251051, Final residual = 2.65179e-18, No Iterations 1
+ExecutionTime = 1.9 s  ClockTime = 3 s
+
+Time = 0.32
+
+DILUPBiCG:  Solving for f, Initial residual = 0.024935, Final residual = 2.55385e-18, No Iterations 1
+ExecutionTime = 1.99 s  ClockTime = 3 s
+
+Time = 0.34
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0246389, Final residual = 2.57199e-18, No Iterations 1
+ExecutionTime = 2.08 s  ClockTime = 3 s
+
+Time = 0.36
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0246549, Final residual = 2.40309e-18, No Iterations 1
+ExecutionTime = 2.17 s  ClockTime = 3 s
+
+Time = 0.38
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0245239, Final residual = 3.85159e-18, No Iterations 1
+ExecutionTime = 2.26 s  ClockTime = 3 s
+
+Time = 0.4
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0243118, Final residual = 3.86909e-18, No Iterations 1
+ExecutionTime = 2.35 s  ClockTime = 3 s
+
+Time = 0.42
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0242363, Final residual = 2.51818e-18, No Iterations 1
+ExecutionTime = 2.45 s  ClockTime = 3 s
+
+Time = 0.44
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0241386, Final residual = 2.34889e-18, No Iterations 1
+ExecutionTime = 2.54 s  ClockTime = 4 s
+
+Time = 0.46
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0239354, Final residual = 2.37636e-18, No Iterations 1
+ExecutionTime = 2.64 s  ClockTime = 4 s
+
+Time = 0.48
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0238711, Final residual = 2.50136e-18, No Iterations 1
+ExecutionTime = 2.74 s  ClockTime = 4 s
+
+Time = 0.5
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0236923, Final residual = 4.29792e-18, No Iterations 1
+ExecutionTime = 2.84 s  ClockTime = 4 s
+
+Time = 0.52
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0236091, Final residual = 2.43988e-18, No Iterations 1
+ExecutionTime = 2.93 s  ClockTime = 4 s
+
+Time = 0.54
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0234919, Final residual = 4.22632e-18, No Iterations 1
+ExecutionTime = 3.01 s  ClockTime = 4 s
+
+Time = 0.56
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0231998, Final residual = 2.23276e-18, No Iterations 1
+ExecutionTime = 3.1 s  ClockTime = 4 s
+
+Time = 0.58
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0232386, Final residual = 2.24002e-18, No Iterations 1
+ExecutionTime = 3.19 s  ClockTime = 4 s
+
+Time = 0.6
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0231064, Final residual = 2.23007e-18, No Iterations 1
+ExecutionTime = 3.28 s  ClockTime = 5 s
+
+Time = 0.62
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0227483, Final residual = 2.28767e-18, No Iterations 1
+ExecutionTime = 3.37 s  ClockTime = 5 s
+
+Time = 0.64
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0228557, Final residual = 2.1933e-18, No Iterations 1
+ExecutionTime = 3.48 s  ClockTime = 5 s
+
+Time = 0.66
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0226908, Final residual = 2.12699e-18, No Iterations 1
+ExecutionTime = 3.55 s  ClockTime = 5 s
+
+Time = 0.68
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0224725, Final residual = 2.01838e-18, No Iterations 1
+ExecutionTime = 3.64 s  ClockTime = 5 s
+
+Time = 0.7
+
+DILUPBiCG:  Solving for f, Initial residual = 0.022466, Final residual = 2.27379e-18, No Iterations 1
+ExecutionTime = 3.75 s  ClockTime = 5 s
+
+Time = 0.72
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0222564, Final residual = 2.14313e-18, No Iterations 1
+ExecutionTime = 3.85 s  ClockTime = 5 s
+
+Time = 0.74
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0221703, Final residual = 2.09982e-18, No Iterations 1
+ExecutionTime = 3.95 s  ClockTime = 5 s
+
+Time = 0.76
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0220821, Final residual = 2.09543e-18, No Iterations 1
+ExecutionTime = 4.03 s  ClockTime = 6 s
+
+Time = 0.78
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0218483, Final residual = 2.0587e-18, No Iterations 1
+ExecutionTime = 4.12 s  ClockTime = 6 s
+
+Time = 0.8
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0218454, Final residual = 2.12442e-18, No Iterations 1
+ExecutionTime = 4.21 s  ClockTime = 6 s
+
+Time = 0.82
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0216791, Final residual = 2.21606e-18, No Iterations 1
+ExecutionTime = 4.31 s  ClockTime = 6 s
+
+Time = 0.84
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0215696, Final residual = 3.18021e-18, No Iterations 1
+ExecutionTime = 4.4 s  ClockTime = 6 s
+
+Time = 0.86
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0215044, Final residual = 2.21131e-18, No Iterations 1
+ExecutionTime = 4.49 s  ClockTime = 6 s
+
+Time = 0.88
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0212641, Final residual = 2.17007e-18, No Iterations 1
+ExecutionTime = 4.59 s  ClockTime = 6 s
+
+Time = 0.9
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0212759, Final residual = 2.21e-18, No Iterations 1
+ExecutionTime = 4.68 s  ClockTime = 6 s
+
+Time = 0.92
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0211462, Final residual = 2.22015e-18, No Iterations 1
+ExecutionTime = 4.77 s  ClockTime = 7 s
+
+Time = 0.94
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0209547, Final residual = 3.25582e-18, No Iterations 1
+ExecutionTime = 4.86 s  ClockTime = 7 s
+
+Time = 0.96
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0209643, Final residual = 2.09134e-18, No Iterations 1
+ExecutionTime = 4.96 s  ClockTime = 7 s
+
+Time = 0.98
+
+DILUPBiCG:  Solving for f, Initial residual = 0.020776, Final residual = 3.13171e-18, No Iterations 1
+ExecutionTime = 5.06 s  ClockTime = 7 s
+
+Time = 1
+
+DILUPBiCG:  Solving for f, Initial residual = 0.0206964, Final residual = 2.04732e-18, No Iterations 1
+ExecutionTime = 5.16 s  ClockTime = 7 s
+
+End
+
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  1.6                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 1.6-f802ff2d6c5a
+Exec   : blockMesh
+Date   : Feb 25 2010
+Time   : 19:37:55
+Host   : pc-rafael
+PID    : 15308
+Case   : /media/Arquivos/FOAMwork/done/Advection/case3D
+nProcs : 1
+SigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+
+Creating block mesh from
+    "/media/Arquivos/FOAMwork/done/Advection/case3D/constant/polyMesh/blockMeshDict"
+
+
+Creating blockCorners
+
+Creating curved edges
+
+Creating blocks
+
+Creating patches
+
+Creating block mesh topology
+
+Default patch type set to empty
+
+Check block mesh topology
+
+	Basic statistics
+		Number of internal faces : 0
+		Number of boundary faces : 6
+		Number of defined boundary faces : 6
+		Number of undefined boundary faces : 0
+
+	Checking patch -> block consistency
+
+Creating block offsets
+
+Creating merge list .
+
+Creating points with scale 1
+
+Creating cells
+
+Creating patches
+
+Creating mesh from block mesh
+
+Default patch type set to empty
+
+Writing polyMesh
+
+End

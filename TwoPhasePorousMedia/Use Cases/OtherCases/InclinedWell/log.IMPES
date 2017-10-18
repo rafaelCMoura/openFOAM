@@ -1,0 +1,36 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.1.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.1.0-0bc225064152
+Exec   : IMPES
+Date   : May 20 2012
+Time   : 15:53:22
+Host   : "rafael-vb"
+PID    : 8602
+Case   : /home/rafael/OpenFOAM/rafael-2.1.0/SimulatorIMPES/v104/OtherCases/InclinedWell
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Disallowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Reading fields                     
+
+--> FOAM FATAL IO ERROR: 
+cannot find file
+
+file: /home/rafael/OpenFOAM/rafael-2.1.0/SimulatorIMPES/v104/OtherCases/InclinedWell/0/phi_w at line 0.
+
+    From function regIOobject::readStream()
+    in file db/regIOobject/regIOobjectRead.C at line 73.
+
+FOAM exiting
+

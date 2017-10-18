@@ -1,0 +1,37 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.0.1                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.0.1-51f1de99a4bc
+Exec   : IMPES
+Date   : Dec 06 2011
+Time   : 03:14:45
+Host   : rafael-VPCEA25FB
+PID    : 2975
+Case   : /home/rafael/Documents/SimulatorIMPES/v103/case3D
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Disallowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Reading fields                     [  OK  ]
+Reading problem parameters         
+
+--> FOAM FATAL IO ERROR: 
+keyword PrefW is undefined in dictionary "/home/rafael/Documents/SimulatorIMPES/v103/case3D/constant/params"
+
+file: /home/rafael/Documents/SimulatorIMPES/v103/case3D/constant/params from line 19 to line 39.
+
+    From function dictionary::lookupEntry(const word&, bool, bool) const
+    in file db/dictionary/dictionary.C at line 400.
+
+FOAM exiting
+

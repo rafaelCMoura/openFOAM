@@ -7,6 +7,6 @@
 - lscpu (More detailed info about processors)
 
 ### Parallel OpenFOAM Tutorials
-|   Solver Name             | Case name               | Description                            |
-|   ----------------------- | ----------------------- | -------------------------------------- |
+|  Solver Name  |   Case name   |   Descriptiopn    |
+|  :---: | :---: | :--- |
 |  Nome do solver  | Nome do caso | descritivo do caso |

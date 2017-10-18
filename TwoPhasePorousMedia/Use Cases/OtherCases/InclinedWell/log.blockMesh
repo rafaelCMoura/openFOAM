@@ -1,0 +1,74 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.1.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 2.1.0-0bc225064152
+Exec   : blockMesh
+Date   : May 20 2012
+Time   : 15:53:16
+Host   : "rafael-vb"
+PID    : 8600
+Case   : /home/rafael/OpenFOAM/rafael-2.1.0/SimulatorIMPES/v104/OtherCases/InclinedWell
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster
+allowSystemOperations : Disallowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Creating block mesh from
+    "/home/rafael/OpenFOAM/rafael-2.1.0/SimulatorIMPES/v104/OtherCases/InclinedWell/constant/polyMesh/blockMeshDict"
+Creating curved edges
+Creating topology blocks
+Creating topology patches
+
+Reading patches section
+
+Creating block mesh topology
+
+Reading physicalType from existing boundary file
+
+Default patch type set to empty
+
+Check topology
+
+	Basic statistics
+		Number of internal faces : 0
+		Number of boundary faces : 6
+		Number of defined boundary faces : 6
+		Number of undefined boundary faces : 0
+	Checking patch -> block consistency
+
+Creating block offsets
+Creating merge list .
+
+Creating polyMesh from blockMesh
+Creating patches
+Creating cells
+Creating points with scale 1
+
+Writing polyMesh
+----------------
+Mesh Information
+----------------
+  boundingBox: (0 0 0) (1000 1000 250)
+  nPoints: 18491
+  nCells: 16000
+  nFaces: 50400
+  nInternalFaces: 45600
+----------------
+Patches
+----------------
+  patch 0 (start: 45600 size: 400) name: left
+  patch 1 (start: 46000 size: 400) name: right
+  patch 2 (start: 46400 size: 400) name: up
+  patch 3 (start: 46800 size: 400) name: down
+  patch 4 (start: 47200 size: 1600) name: front
+  patch 5 (start: 48800 size: 1600) name: back
+
+End
+

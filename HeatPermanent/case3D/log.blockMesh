@@ -1,0 +1,64 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  1.6                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 1.6-f802ff2d6c5a
+Exec   : blockMesh
+Date   : Jun 30 2010
+Time   : 22:28:25
+Host   : pc-rafael
+PID    : 3581
+Case   : /media/Arquivos/FOAMwork/done/HeatPermanent/case3D
+nProcs : 1
+SigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+
+Creating block mesh from
+    "/media/Arquivos/FOAMwork/done/HeatPermanent/case3D/constant/polyMesh/blockMeshDict"
+
+
+Creating blockCorners
+
+Creating curved edges
+
+Creating blocks
+
+Creating patches
+
+Creating block mesh topology
+
+Default patch type set to empty
+
+Check block mesh topology
+
+	Basic statistics
+		Number of internal faces : 0
+		Number of boundary faces : 6
+		Number of defined boundary faces : 6
+		Number of undefined boundary faces : 0
+
+	Checking patch -> block consistency
+
+Creating block offsets
+
+Creating merge list .
+
+Creating points with scale 1
+
+Creating cells
+
+Creating patches
+
+Creating mesh from block mesh
+
+Default patch type set to empty
+
+Writing polyMesh
+
+End

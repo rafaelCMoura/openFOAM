@@ -1,0 +1,27 @@
+@title "Curvas de Permeabilidade Relativa"
+@xaxis label "Sw"
+@yaxis label "kro"
+@s0 legend "kro"
+@target G0.S0
+@type xy
+      0.16          1
+       0.2        0.7
+       0.3      0.325
+       0.4       0.14
+       0.5      0.045
+       0.6      0.031
+       0.7      0.015
+       0.8          0
+
+@s1 legend "krw"
+@target G0.S1
+@type xy
+      0.16          0
+       0.2       0.01
+       0.3      0.035
+       0.4       0.06
+       0.5       0.11
+       0.6       0.16
+       0.7       0.24
+       0.8       0.42
+

@@ -1,0 +1,64 @@
+so = 1 - sw;
+double qInj(0);
+
+forAll(sw,cellI)
+{
+  kr_o[cellI] = spline_cubic_val ( npKr, swVec, sw[cellI], kroVec, d2kro, &kro_pval, &kro_ppval );
+  kr_w[cellI] = spline_cubic_val ( npKr, swVec, sw[cellI], krwVec, d2krw, &krw_pval, &krw_ppval );
+  
+  kr_o[cellI] = (kr_o[cellI] >1) ? 1 : kr_o[cellI];
+  kr_o[cellI] = (kr_o[cellI] <0) ? 0 : kr_o[cellI];
+  kr_w[cellI] = (kr_w[cellI] >1) ? 1 : kr_w[cellI];
+  kr_w[cellI] = (kr_w[cellI] <0) ? 0 : kr_w[cellI];
+  
+  so[cellI] = (so[cellI] >0.8) ? 0.8 : so[cellI];
+  so[cellI] = (so[cellI] <0.2) ? 0.2 : so[cellI];
+  sw[cellI] = (sw[cellI] >0.8) ? 0.8 : sw[cellI];
+  sw[cellI] = (sw[cellI] <0.2) ? 0.2 : sw[cellI];
+  
+  pc[cellI] = spline_cubic_val ( npPc, swPcVec, sw[cellI], PcVec, d2Pc, &Pc_pval, &Pc_ppval );
+  
+  fw[cellI] = (kr_w[cellI]/mu_w.value())/(kr_o[cellI]/mu_o.value() + kr_w[cellI]/mu_w.value()); 
+  
+  if(Q[cellI]>0) // injetor
+  {
+    qInj = qw[cellI];
+    Info<<"Q_inj = "<< qw[cellI] <<endl;
+  }
+  if(Q[cellI]<0) // ou seja, um produtor
+  {
+    qw[cellI] = (-1)*fw[cellI]*qInj;
+    qo[cellI] = (-1)*(1-fw[cellI])*qInj;
+    Info<<"Q_prod = "<< qInj <<endl;
+    Info<<"qw_prod = "<< qw[cellI] <<endl;
+    Info<<"qo_prod = "<< qo[cellI] <<endl;
+  }
+}
+
+// Calculating pw with the new capilar pressure: 
+pw = po - pc;
+// Upstream interpolation:
+forAll(kr_wf,faceI)
+{
+  //DPHI_w = (pw[own[faceI]]-pw[nei[faceI]]) - gama_w.value()*(Z[own[faceI]]-Z[nei[faceI]]);
+  //DPHI_o = (po[own[faceI]]-po[nei[faceI]]) - gama_o.value()*(Z[own[faceI]]-Z[nei[faceI]]);
+  phi_w[faceI] = (pw[own[faceI]]-pw[nei[faceI]]) + gama_w.value()*(Z[own[faceI]]-Z[nei[faceI]]);
+  phi_o[faceI] = (po[own[faceI]]-po[nei[faceI]]) + gama_o.value()*(Z[own[faceI]]-Z[nei[faceI]]);
+
+  ////verde
+  //kr_of[faceI] = (DPHI_o > 0) ? kr_o[own[faceI]] : kr_o[nei[faceI]];
+  //kr_wf[faceI] = (DPHI_w > 0) ? kr_w[own[faceI]] : kr_w[nei[faceI]];
+}
+
+surfaceScalarField kr_of = fvc::interpolate(kr_o);
+surfaceScalarField kr_wf = fvc::interpolate(kr_w);
+
+Q  = (qo + qw)/(BETA_C*Vb);
+Qw = qw/(BETA_C*Vb);
+
+Tpof = Kf*(kr_of/mu_o + kr_wf/mu_w);
+Tpcf = Kf*(kr_wf/mu_w);
+Tpzf = Kf*((kr_of/mu_o)*gama_o + (kr_wf/mu_w)*gama_w);
+Tszf = Kf*(kr_wf/mu_w)*gama_w;
+
+//phi_w = fvc::grad(pw) - rho_wsc*G*fvc::grad(Z);

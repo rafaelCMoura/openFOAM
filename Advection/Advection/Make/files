@@ -1,0 +1,3 @@
+Advection.C
+
+EXE = $(FOAM_APPBIN)/Advection

@@ -1,0 +1,42 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  1.6                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 1.6-f802ff2d6c5a
+Exec   : HeatPermanent
+Date   : Jun 30 2010
+Time   : 22:28:34
+Host   : pc-rafael
+PID    : 3582
+Case   : /media/Arquivos/FOAMwork/done/HeatPermanent/case3D
+nProcs : 1
+SigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+// using new solver syntax:
+T
+{
+    solver          PCG;
+    preconditioner  DIC;
+    tolerance       1e-05;
+    relTol          0;
+}
+
+Reading field T
+
+Reading field Q
+
+
+Starting time loop
+
+Time = 0
+DICPCG:  Solving for T, Initial residual = 3.02273e-05, Final residual = 2.47004e-06, No Iterations 1
+ExecutionTime = 4.17 s  ClockTime = 5 s
+

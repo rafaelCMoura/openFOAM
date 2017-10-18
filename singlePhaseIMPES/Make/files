@@ -1,3 +1,0 @@
-Single.C
-
-EXE = $(FOAM_USER_APPBIN)/singlePhaseIMPES

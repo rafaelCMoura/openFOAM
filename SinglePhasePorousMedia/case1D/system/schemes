@@ -1,0 +1,97 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  1.6                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : 1.6-f802ff2d6c5a
+Exec   : Single
+Date   : Jan 30 2010
+Time   : 02:02:03
+Host   : pc-rafael
+PID    : 6093
+Case   : /media/Arquivos/FOAMwork/test/Single/case1D
+nProcs : 1
+SigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Reading field p
+
+Reading field q
+
+Reading field K
+
+Reading field phi_ref
+
+Reading transportProperties
+
+Reading field Z
+
+
+Starting time loop
+
+Time = 0.1
+
+
+
+Unknown discretisation scheme harmonic
+
+Valid schemes are :
+
+40
+(
+linear
+quadraticUpwindFit
+limitedCubic
+limitedLinear
+downwind
+Gamma
+localMax
+quadraticLinearUpwindFit
+outletStabilised
+quadraticFit
+reverseLinear   //basis for harmonic    See harmonic.C
+blended
+limitWith
+linearPureUpwindFit
+vanLeer
+MC
+Minmod
+cubic
+SuperBee
+filteredLinear3
+biLinearFit
+quadraticLinearFit
+QUICK
+UMIST
+weighted
+skewCorrected
+midPoint
+linearFit
+localMin
+fixedBlended
+vanAlbada
+OSPRE
+MUSCL
+clippedLinear
+filteredLinear2
+upwind                // nao, da um bug
+localBlended
+SFCD
+cubicUpwindFit
+filteredLinear
+)
+
+
+file: /media/Arquivos/FOAMwork/test/Single/case1D/system/fvSchemes::laplacianSchemes::default at line 33.
+
+    From function surfaceInterpolationScheme<Type>::New(const fvMesh&, Istream&)
+    in file lnInclude/surfaceInterpolationScheme.C at line 83.
+
+FOAM exiting
+
