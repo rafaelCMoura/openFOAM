@@ -9,10 +9,5 @@ in /opt/platforms/linux64GccDPInt32Opt/bin directory.
 ## Required files
 
 In you app's directory create a directory called "Make". Inside this directory
-create two files.
-
--options
--files
-
-Read the [details](https://cfd.direct/openfoam/user-guide/compiling-applications/)
+create two files, which are: "options" and "files". Read the [details](https://cfd.direct/openfoam/user-guide/compiling-applications/)
 in OpenFOAM user guide.
