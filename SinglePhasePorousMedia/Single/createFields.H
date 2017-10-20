@@ -72,10 +72,23 @@ IOdictionary transportProperties
 	)
 );
 
+Info<< "Reading Well Perforations\n" << endl;
+
+IOdictionary wellPerforations
+(
+	IOobject
+	(
+		"wellPerforations",
+		runTime.constant(),
+		mesh,
+		IOobject::MUST_READ,
+		IOobject::NO_WRITE
+	)
+);
+
 Info<< "Reading field Z\n" << endl;
 
 volScalarField Z = max(mesh.C().component(2)) - mesh.C().component(2);
-
 
 dimensionedScalar ALPHA_C (transportProperties.lookup("ALPHA_C"));
 dimensionedScalar BETA_C  (transportProperties.lookup("BETA_C"));
@@ -102,14 +115,16 @@ volScalarField p_old = p;
 volScalarField phi = phi_ref*(1 + c_f*(p-Pref));
 volScalarField rho = rho_ref*(1 + c_f*(p-Pref));
 
+// Equilibrio de pressões/deformações rocha sistema
 while(r>tol)
 {
 	p = Pref + rho*G*Z;
 	rho = rho_ref*(1 + c_f*(p-Pref));
-	phi = phi_ref*(1 + c_r*(p-Pref));
 	r = max(mag(p-p_old))/p_unit;
 	p_old = p;
 }
+// Calculo da porosidade com as pressões de equilíbrio
+phi = phi_ref*(1 + c_r*(p-Pref));
 
 volScalarField B = (B_ref*rho_ref)/rho;
 volTensorField lambda = BETA_C*K/(mu_ref*B);
