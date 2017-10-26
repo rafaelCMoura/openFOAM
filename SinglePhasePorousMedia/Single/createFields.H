@@ -123,7 +123,7 @@ while(r>tol)
 	r = max(mag(p-p_old))/p_unit;
 	p_old = p;
 }
-// Calculo da porosidade com as pressões de equilíbrio
+// Calculo da porosidade com as pressões de equilíbrio :)
 phi = phi_ref*(1 + c_r*(p-Pref));
 
 volScalarField B = (B_ref*rho_ref)/rho;
